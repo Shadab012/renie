@@ -57,6 +57,7 @@
   font-size: 20px;
   line-height: 30px;
 }
+
 /* Medai Queries for responsive design */
 @media screen and (max-width: 768px) {
   .heroSection {
@@ -95,5 +96,17 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+  }
+
+  .bigCircle {
+    width: 110px;
+    height: 110px;
+  }
+  .smallCircle {
+    position: absolute !important;
+    width: 44px;
+    height: 44px;
+    left: 105px;
+    top: 180px;
   }
 }
