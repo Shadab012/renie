@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box !important;
+}
+.gradient-text {
+  background: linear-gradient(90deg, #4765e6 0%, #5c4099 50%, #e31662 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* Header Component */
+.headerMain {
+  height: 97px;
+}
+.headerLogo {
+  width: 137px;
+  height: 45.79px;
+}
+.headerButton {
+  background: linear-gradient(
+    90deg,
+    #4765e6 33.33%,
+    #5c4099 66.66%,
+    #e31662 100%
+  );
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-weight: 400 !important;
+}
+/* Footer Component */
+.footer {
+  background: #edf0fc;
+  height: 382px;
+  border-top: 10px solid; /* Set the border width */
+  border-image: linear-gradient(90deg, #4765e6, #5c4099, #e31662) 1;
+}
+.footerLogo {
+  width: 200.47px;
+  height: 67px;
+}
+.footerText {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: justify;
+}
+.socialTitle {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  /* color: linear-gradient(90deg, #4765e6 33.33%, #5c4099 66.66%, #e31662 100%); */
+}
+.iconItem {
+  width: 71px;
+  height: 71px;
+  cursor: pointer;
+}
+.footerLink {
+  font-size: 18px;
+  font-weight: 400 !important;
+  line-height: 27px;
+}
+.rightRreservedText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Medai Queries for responsive design */
+@media screen and (max-width: 768px) {
+  .footer {
+    background: #edf0fc;
+    height: 617px;
+  }
+  .iconItem {
+    width: 55.48px;
+    height: 55.48px;
+    cursor: pointer;
+  }
+  .socialTitle {
+    font-size: 25px;
+  }
+  .footerLink {
+    font-size: 14px;
+  }
+  .rightRreservedText {
+    font-size: 14px;
+  }
+}

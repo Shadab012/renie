@@ -1,28 +1,22 @@
 import { Link, NavLink } from 'react-router-dom';
 import React, { useState } from 'react';
-import Logo from '../assets/images/logo.png';
+import logo from '../assets/images/logo.png';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className='shadow sticky z-50 top-0'>
-      <nav className='bg-white border-gray-200 px-4 lg:px-6 py-2.5'>
+    <header className='headerMain shadow sticky z-50 top-0 border border-black flex items-center'>
+      <nav className='bg-white border-gray-200 px-4 lg:px-6 py-2.5 w-full'>
         <div className='flex flex-wrap justify-between items-center mx-auto max-w-screen-xl'>
-          <Link to='' className='flex items-center'>
-            <img src={Logo} className='mr-3 h-12' alt='Logo' />
+          <Link to='/' className='headerLogo flex items-center'>
+            <img src={logo} className='mr-3 h-12' alt='Logo' />
           </Link>
-          <div className='flex items-center lg:order-2 hidden md:block'>
+          <div className='headerButton flex items-center  justify-center border md:order-2 hidden lg:block'>
             <Link
               to='#'
-              className='text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none'
+              className='text-white text-xl hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm  focus:outline-none'
             >
-              Log in
-            </Link>
-            <Link
-              to='#'
-              className='text-white resume-btn focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none'
-            >
-              Get started
+              Connect with an expert
             </Link>
           </div>
           {/* button added here */}
@@ -64,9 +58,9 @@ export default function Header() {
                   onClick={() => {
                     setIsOpen(false);
                   }}
-                  to=''
+                  to='/'
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${
+                    `block py-2 pr-4 pl-3 duration-200 text-xl text-black ${
                       isActive ? 'primary-color ' : 'text-gray-500'
                     } border-b border-gray-100 
                                         hover:bg-gray-50
@@ -74,7 +68,7 @@ export default function Header() {
                                          hover:primary-color lg:p-0`
                   }
                 >
-                  Home
+                  Renie Bin
                 </NavLink>
               </li>
               <li>
@@ -82,9 +76,9 @@ export default function Header() {
                   onClick={() => {
                     setIsOpen(false);
                   }}
-                  to=''
+                  to='/about'
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${
+                    `block py-2 pr-4 pl-3 duration-200 text-xl text-black${
                       isActive ? 'primary-color' : 'text-gray-500'
                     } border-b border-gray-100 
                                         hover:bg-gray-50
@@ -92,7 +86,7 @@ export default function Header() {
                                          hover:primary-color lg:p-0`
                   }
                 >
-                  About
+                  Renie Hub
                 </NavLink>
               </li>
               <li>
@@ -100,9 +94,9 @@ export default function Header() {
                   onClick={() => {
                     setIsOpen(false);
                   }}
-                  to=''
+                  to='/contact'
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 
+                    `block py-2 pr-4 pl-3 duration-200 text-xl text-black 
                                         ${
                                           isActive
                                             ? 'primary-color '
@@ -113,7 +107,7 @@ export default function Header() {
                                          hover:primary-color lg:p-0`
                   }
                 >
-                  Contact
+                  Renie App
                 </NavLink>
               </li>
               <li>
@@ -121,9 +115,9 @@ export default function Header() {
                   onClick={() => {
                     setIsOpen(false);
                   }}
-                  to=''
+                  to='/projects'
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 
+                    `block py-2 pr-4 pl-3 duration-200  text-xl text-black
                                         ${
                                           isActive
                                             ? 'primary-color'
@@ -134,9 +128,38 @@ export default function Header() {
                                          hover:primary-color lg:p-0`
                   }
                 >
-                  Projects
+                  Ads that matter
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  onClick={() => {
+                    setIsOpen(false);
+                  }}
+                  to='/projects'
+                  className={({ isActive }) =>
+                    `block py-2 pr-4 pl-3 duration-200  text-xl text-black
+                                        ${
+                                          isActive
+                                            ? 'primary-color'
+                                            : 'text-gray-500'
+                                        } border-b border-gray-100 
+                                        hover:bg-gray-50
+                                     lg:hover:bg-transparent lg:border-0
+                                         hover:primary-color lg:p-0`
+                  }
+                >
+                  Media Hub
+                </NavLink>
+              </li>
+              <div className='headerButton w-max flex items-center  justify-center border  block lg:hidden'>
+                <Link
+                  to='#'
+                  className='text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm  focus:outline-none'
+                >
+                  Connect with an expert
+                </Link>
+              </div>
             </ul>
           </div>
         </div>
