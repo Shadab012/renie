@@ -3,8 +3,8 @@ import '../assets/css/home.css';
 import Arrow from '../assets/images/arrow.png';
 function Home() {
   return (
-    <div className='heroSection flex flex-col justify-around  items-center  mt-5'>
-      <div className='heroTitle'>
+    <div className='heroSection flex flex-col justify-between py-10  items-center  mt-10'>
+      <div className='heroTitle flex flex-col gap-10 mt-10'>
         <div className='heroTitleText'>
           {' '}
           <span className='transform'>Transform</span> <br />
@@ -13,9 +13,11 @@ function Home() {
           <span className='into'>into</span>
           <span className='income gradient-text'>income</span>{' '}
         </div>
-        <button>now</button>
+        <div className='flex justify-center md:mt-5'>
+          <button className='heroButton text-white'>See how</button>
+        </div>
       </div>
-      <div className='arrowSection'>
+      <div className='arrowSection mb-10'>
         <img className='arrowImg' src={Arrow} alt='' />
       </div>
     </div>

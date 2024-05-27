@@ -9,6 +9,14 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+.gradientButton {
+  background: linear-gradient(
+    90deg,
+    #4765e6 33.33%,
+    #5c4099 66.66%,
+    #e31662 100%
+  );
+}
 /* Header Component */
 .headerMain {
   height: 97px;
