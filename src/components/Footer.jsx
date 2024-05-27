@@ -11,7 +11,7 @@ function Footer() {
   return (
     <footer className='footer flex flex-col justify-center items-center p-3 md:p-0 gap-2 md:gap-5'>
       <div className=' flex flex-col lg:flex-row  justify-evenly items-center gap-5 mb-5'>
-        <div className='LogoSection flex flex-col items-center md:items-start border border-black w-11/12 md:w-5/12 '>
+        <div className='LogoSection flex flex-col items-center md:items-start  w-11/12 md:w-5/12 '>
           <Link to='/' className='footerLogo w-auto flex items-center'>
             <img src={logo} className='' alt='Logo' />
           </Link>
@@ -26,7 +26,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className='IconsSection flex flex-col gap-5 justify-center items-center border border-black w-11/12 md:w-4/12'>
+        <div className='IconsSection flex flex-col gap-5 justify-center items-center  w-11/12 md:w-4/12'>
           <p className='socialTitle gradient-text'>Follow our socials!</p>
           <div className='socialIcons w-full flex justify-between  items-center  '>
             <img src={instagramIcon} alt='' className='iconItem ' />
