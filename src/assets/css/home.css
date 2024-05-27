@@ -1,0 +1,50 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.gradient-text {
+  background: linear-gradient(90deg, #4765e6 0%, #5c4099 50%, #e31662 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.heroSection {
+  border: 1px solid black;
+  width: 100%;
+  height: 810px;
+  background: url('../images/home.png');
+  background-repeat: no-repeat;
+  background-size: contain !important;
+}
+
+.transform {
+  font-weight: 600;
+  font-size: 61.13px;
+  line-height: 61.13px;
+  color: #e31662;
+}
+.yourwaste {
+  font-weight: 900;
+  font-size: 85.58px;
+  line-height: 85.58px;
+  color: purple;
+}
+.into {
+  font-weight: 700;
+  font-size: 61.13px;
+  line-height: 61.13px;
+  color: #4765e6;
+}
+.income {
+  font-weight: 900;
+  font-size: 92.17px;
+  line-height: 64.81px;
+}
+.arrowImg {
+  width: 41.19px;
+  height: 131.79px;
+}
+/* Medai Queries for responsive design */
+@media screen and (max-width: 768px) {
+}

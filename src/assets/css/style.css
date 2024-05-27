@@ -69,6 +69,15 @@
 
 /* Medai Queries for responsive design */
 @media screen and (max-width: 768px) {
+  /* Header */
+  .headerMain {
+    height: 54px;
+  }
+  .headerLogo {
+    width: 95px;
+    height: 31px;
+  }
+  /* Footer */
   .footer {
     background: #edf0fc;
     height: 617px;
@@ -83,6 +92,11 @@
   }
   .footerLink {
     font-size: 14px;
+  }
+  .footerText {
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
   }
   .rightRreservedText {
     font-size: 14px;
