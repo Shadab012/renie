@@ -6,7 +6,7 @@ import RoundedIcon from '../../../assets/images/round-1.png';
 function HeroSection() {
   return (
     <div className='flex flex-col gap-5 '>
-      <div className='heroMain flex flex-col md:flex-row  justify-center py-5 md:py-10 gap-5 md:gap-10  w-10/12 mx-auto mb-5'>
+      <div className='heroMain flex flex-col md:flex-row  justify-around py-5 md:py-10 gap-5 md:gap-10  w-10/12 mx-auto mb-5'>
         <div className='mobileCircle  flex justify-start items-start  w-full '>
           <img className='bigCircle' src={Circle} alt='' />
         </div>
