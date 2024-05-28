@@ -75,6 +75,18 @@
   line-height: 24px;
 }
 
+/* TrustedBy Component */
+.trustedBySection {
+}
+.trustMain {
+  height: 184px;
+}
+.trustTitleText {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 45px;
+}
+
 /* Medai Queries for responsive design */
 @media screen and (max-width: 768px) {
   /* Header */

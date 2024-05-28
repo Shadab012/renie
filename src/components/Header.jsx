@@ -6,8 +6,8 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className='headerMain shadow sticky z-50 top-0 border border-black flex items-center'>
-      <nav className='bg-white border-gray-200 px-4 lg:px-6 py-2.5 w-full'>
-        <div className='flex flex-wrap justify-between items-center mx-auto max-w-screen-xl'>
+      <nav className='bg-white border-gray-200  py-2.5 w-10/12 mx-auto'>
+        <div className='flex flex-wrap justify-between items-center  w-full'>
           <Link to='/' className='headerLogo flex items-center'>
             <img src={logo} className='mr-3 h-12' alt='Logo' />
           </Link>

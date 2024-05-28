@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  /* overflow-y: scroll; */
 }
 .gradient-text {
   background: linear-gradient(90deg, #4765e6 0%, #5c4099 50%, #e31662 100%);
@@ -15,7 +16,7 @@
   height: 810px;
   background: url('../images/home.png');
   background-repeat: no-repeat;
-  background-size: contain !important;
+  background-size: cover !important;
   background-position-y: center;
 }
 
@@ -45,6 +46,10 @@
 .arrowImg {
   width: 41.19px;
   height: 131.79px;
+}
+
+.mobileRounded {
+  /* height: 150px; */
 }
 .heroButton {
   background: linear-gradient(
@@ -105,15 +110,13 @@
     width: 110px;
     height: 110px;
   }
-  .smallCircle {
-    position: absolute !important;
-    width: 44px;
-    height: 44px;
-    left: 111px;
-    top: 185px;
-  }
-  .mobileRounded {
+
+  .roundedIcon {
     width: 90px;
     height: 89.06px;
+  }
+  .arrowImg {
+    width: 29.6px;
+    height: 84px;
   }
 }
