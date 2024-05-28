@@ -4,6 +4,7 @@ import Arrow from '../../assets/images/arrow.png';
 import TrustedBy from '../../components/TrustedBy';
 import About from './components/About';
 import HeroSection from './components/HeroSection';
+import ServiceCards from './components/ServiceCards';
 function Home() {
   return (
     <div>
@@ -18,6 +19,9 @@ function Home() {
       </div>
       <div className='aboutSection mt-10'>
         <About />
+      </div>
+      <div className='serviceCardsSection my-10'>
+        <ServiceCards />
       </div>
     </div>
   );
