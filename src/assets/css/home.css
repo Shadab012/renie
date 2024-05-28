@@ -63,6 +63,31 @@
 }
 /* Hero section End */
 
+/* About sectoin start */
+.aboutSection {
+  height: 448.5px;
+  border: 1px solid black;
+}
+.imageSection {
+  width: 448.5px;
+  height: 448.5px;
+}
+.aboutTitleTop {
+  font-size: 35px;
+  line-height: 35px;
+  color: #ff0e64;
+}
+.aboutTitleMain {
+  font-size: 35px;
+  line-height: 52px;
+}
+.aboutPeragraph {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+/* End */
+
 /* Medai Queries for responsive design */
 @media screen and (max-width: 768px) {
   .heroSection {
@@ -116,4 +141,27 @@
     width: 29.6px;
     height: 84px;
   }
+  /* About Section mobile */
+  .aboutSection {
+    height: 689px;
+    border: 1px solid black;
+  }
+  .imageSection {
+    width: 296px;
+    height: 296px;
+  }
+  .aboutTitleTop {
+    font-size: 25px;
+    line-height: 35px;
+    color: #ff0e64;
+  }
+  .aboutTitleMain {
+    font-size: 25px;
+    line-height: 52px;
+  }
+  .aboutPeragraph {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  /* end */
 }
