@@ -68,9 +68,15 @@ function CardSection() {
   };
 
   return (
-    <div>
+    <div className=''>
+      <div className='serviceTitle flex justify-center'>
+        {' '}
+        <span className='serviceTitleText font-semibold gradient-text'>
+          How it works{' '}
+        </span>{' '}
+      </div>
       <div className='cardsSection w-10/12 mx-auto hidden md:flex justify-between gap-5 my-5'>
-        <div className='cardItem flex flex-col justify-center items-center gap-5 p-5'>
+        <div className='cardItem flex flex-col justify-center items-center rounded-lg gap-5 p-5'>
           <span className='cardTitle font-semibold gradient-text'>
             Data extraction
           </span>

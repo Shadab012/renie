@@ -115,14 +115,36 @@
   font-size: 35px;
   line-height: 45px;
 }
-.cardItem {
+/* .cardItem {
   height: 578px;
   width: 390px;
-  border: 1px solid black;
-  border-radius: 20px;
   background-image: url('../images/card-bg.png');
+  border: 10px solid; 
+  border-image: linear-gradient(90deg, #4765e6, #5c4099, #e31662) 1;
+} */
+.cardItem {
+  position: relative;
+  height: 578px;
+  width: 390px;
+  background-image: url('../images/card-bg.png');
+  border-radius: 20px; /* Adjust as needed */
+  overflow: hidden;
+  padding: 10px; /* Adjust as needed */
+  background-clip: padding-box; /* This ensures the padding is within the rounded border */
 }
 
+.cardItem::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px; /* Same as .cardItem */
+  padding: 10px; /* Adjust as needed */
+  background: linear-gradient(90deg, #4765e6, #5c4099, #e31662);
+  z-index: -1;
+}
 .cardTitle {
   font-size: 25px;
   line-height: 42px;
@@ -222,12 +244,17 @@
   }
   /* end */
   /* serviceCard  */
-  /* .cardItem {
-    height: 578px;
-    width: 100% !important;
-    border: 1px solid black;
-    border-radius: 20px;
+  .cardItem {
+    display: flex !important;
+    margin: 10px auto;
+    position: relative;
+    height: 578px !important;
+    width: 390px !important;
     background-image: url('../images/card-bg.png');
-  } */
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px !important;
+    background-clip: padding-box;
+  }
   /* end */
 }
