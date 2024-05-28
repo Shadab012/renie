@@ -1,18 +1,139 @@
 import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import '../assets/css/style.css'; // Your custom styles
+import trustImg1 from '../assets/images/trust-1.png';
+import trustImg2 from '../assets/images/trust-2.png';
+import trustImg3 from '../assets/images/trust-3.png';
+import trustImg4 from '../assets/images/trust-4.png';
+import trustImg5 from '../assets/images/trust-5.png';
 
+// function TrustedBy() {
+//   const settings = {
+//     dots: true,
+//     infinite: true,
+//     speed: 500,
+//     slidesToShow: 5,
+//     slidesToScroll: 1,
+//     responsive: [
+//       {
+//         breakpoint: 1024,
+//         settings: {
+//           slidesToShow: 5,
+//           slidesToScroll: 1,
+//           infinite: true,
+//           dots: true,
+//         },
+//       },
+//       {
+//         breakpoint: 768,
+//         settings: {
+//           slidesToShow: 2,
+//           slidesToScroll: 1,
+//           infinite: true,
+//           dots: true,
+//         },
+//       },
+//       {
+//         breakpoint: 480,
+//         settings: {
+//           slidesToShow: 1,
+//           slidesToScroll: 1,
+//           infinite: true,
+//           dots: true,
+//         },
+//       },
+//     ],
+//   };
+
+//   return (
+//     <div className='trustMain w-10/12 border border-black mx-auto mb-10'>
+//       <div className='trustTitle flex justify-center my-2'>
+//         <span className='trustTitleText gradient-text'>TrustedBy</span>
+//       </div>
+//       <Slider {...settings}>
+//         <div className='flex justify-center  trustItem1'>
+//           <img className='trustItem' src={trustImg1} alt='Trust 1' />
+//         </div>
+//         <div className='flex justify-center  trustItem2'>
+//           <img className='trustItem' src={trustImg2} alt='Trust 2' />
+//         </div>
+//         <div className='flex justify-center  trustItem3'>
+//           <img className='trustItem' src={trustImg3} alt='Trust 3' />
+//         </div>
+//         <div className='flex justify-center  trustItem4'>
+//           <img className='trustItem' src={trustImg4} alt='Trust 4' />
+//         </div>
+//         <div className='flex justify-center  trustItem5'>
+//           <img className='trustItem' src={trustImg5} alt='Trust 5' />
+//         </div>
+//       </Slider>
+//     </div>
+//   );
+// }
+
+// export default TrustedBy;
 function TrustedBy() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+    ],
+  };
+
   return (
-    <div className='trustMain w-10/12 border border-black mx-auto mb-10'>
-      <div className='trustTitle '>
-        <span className=' trustTitleText gradient-text'>TrustedBy</span>
+    <div className='trustMain w-10/12 flex flex-col gap-10 border border-black mx-auto mb-10'>
+      <div className='trustTitle flex justify-center'>
+        <span className='trustTitleText gradient-text'>TrustedBy</span>
       </div>
-      <div className='trust flex'>
-        <div className='trustItem'></div>
-        <div className='trustItem'></div>
-        <div className='trustItem'></div>
-        <div className='trustItem'></div>
-        <div className='trustItem'></div>
-      </div>
+      <Slider {...settings}>
+        <div className='trustItem'>
+          <img className='trustItem1' src={trustImg1} alt='Trust 1' />
+        </div>
+        <div className='trustItem'>
+          <img className='trustItem2' src={trustImg2} alt='Trust 2' />
+        </div>
+        <div className='trustItem'>
+          <img className='trustItem3' src={trustImg3} alt='Trust 3' />
+        </div>
+        <div className='trustItem'>
+          <img className='trustItem4' src={trustImg4} alt='Trust 4' />
+        </div>
+        <div className='trustItem'>
+          <img className='trustItem5' src={trustImg5} alt='Trust 5' />
+        </div>
+      </Slider>
     </div>
   );
 }

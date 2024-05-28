@@ -9,7 +9,7 @@ export default function Header() {
       <nav className='bg-white border-gray-200  py-2.5 w-10/12 mx-auto'>
         <div className='flex flex-wrap justify-between items-center  w-full'>
           <Link to='/' className='headerLogo flex items-center'>
-            <img src={logo} className='mr-3 h-12' alt='Logo' />
+            <img src={logo} className='' alt='Logo' />
           </Link>
           <div className='headerButton flex items-center  justify-center border md:order-2 hidden lg:block'>
             <Link

@@ -5,7 +5,7 @@ import Circle from '../../../assets/images/round-2.png';
 import RoundedIcon from '../../../assets/images/round-1.png';
 function HeroSection() {
   return (
-    <div className='flex flex-col gap-5 '>
+    <div className='flex flex-col gap-10 '>
       <div className='heroMain flex flex-col md:flex-row  justify-around py-5 md:py-10 gap-5 md:gap-10  w-10/12 mx-auto mb-5'>
         <div className='mobileCircle  flex justify-start items-start  w-full '>
           <img className='bigCircle' src={Circle} alt='' />
@@ -27,7 +27,7 @@ function HeroSection() {
           <img className='roundedIcon' src={RoundedIcon} alt='' />
         </div>
       </div>
-      <div className='arrowSection flex justify-center mb-10 hidden md:flex'>
+      <div className='arrowSection flex justify-center  hidden md:flex'>
         <img className='arrowImg' src={Arrow} alt='' />
       </div>
     </div>

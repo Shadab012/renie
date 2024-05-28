@@ -12,7 +12,7 @@ function Home() {
       <div className='arrowSection flex justify-center md:hidden'>
         <img className='arrowImg' src={Arrow} alt='' />
       </div>
-      <div className='trustedBySection'>
+      <div className='trustedBySection my-5'>
         <TrustedBy />
       </div>
     </div>

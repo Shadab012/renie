@@ -1,3 +1,7 @@
+/* style.css */
+
+/* the above code for pagination */
+
 * {
   padding: 0px;
   margin: 0px;
@@ -80,12 +84,52 @@
   position: relative;
 }
 .trustMain {
-  height: 184px;
+  /* height: 184px; */
 }
 .trustTitleText {
   font-weight: 600;
   font-size: 35px;
   line-height: 45px;
+}
+/* .trustItem1 {
+  width: 251px;
+  height: 72px;
+}
+.trustItem2 {
+  width: 294px;
+  height: 79px;
+}
+.trustItem3 {
+  width: 253px;
+  height: 48px;
+}
+.trustItem4 {
+  width: 237px;
+  height: 135px;
+}
+.trustItem5 {
+  width: 235px;
+  height: 57px;
+} */
+
+/* .trustItem {
+  max-width: 100%;
+  max-height: 100%;
+} */
+.trustItem {
+  width: 100%; /* Set the width of each trustItem */
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Center the images vertically */
+}
+
+.trustItem img {
+  max-width: 100%; /* Ensure the images don't exceed the container width */
+  max-height: 100%; /* Ensure the images don't exceed the container height */
+}
+.slick-track {
+  display: flex;
+  align-items: center !important;
 }
 
 /* Medai Queries for responsive design */
@@ -122,4 +166,27 @@
   .rightRreservedText {
     font-size: 14px;
   }
+  /* .trust {
+    overflow-x: scroll !important;
+  }
+  .trustItem1 {
+    width: 179.37px;
+    height: 51.45px;
+  }
+  .trustItem2 {
+    width: 180.8px !important;
+    height: 34.3px;
+  }
+  .trustItem3 {
+    width: 40% !important;
+    height: 48px;
+  }
+  .trustItem4 {
+    width: 40% !important;
+    height: 135px;
+  }
+  .trustItem5 {
+    width: 40% !important;
+    height: 57px;
+  } */
 }
