@@ -9,12 +9,13 @@ function AdsMatter() {
       </div>
       <div className='w-10/12  md:w-6/12  p-4 flex flex-col justify-center gap-5 '>
         <div className='aboutTitleSection text-center md:text-left'>
-          <span className='renieTitleText font-bold gradient-text'>
+          <span className='adsTitleText font-bold gradient-text'>
             Ads That Matter
           </span>{' '}
           <br />
           <span className='rewardTitleMain font-semibold gradient-text'>
-            AI powered targeted campaigns <br /> based on consumer habits
+            AI powered targeted campaigns <br className='hidden md:block' />{' '}
+            based on consumer habits
           </span>
         </div>
         <div>

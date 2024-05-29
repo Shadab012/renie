@@ -55,7 +55,7 @@
     #5c4099 66.66%,
     #e31662 100%
   );
-  padding: 10px 15px;
+  padding: 10px 20px !important;
   border-radius: 30px;
   font-weight: 400;
   font-size: 20px;
@@ -253,6 +253,10 @@
   height: 656px;
   background-image: url('../images/reward-bg.png');
 }
+.adsTitleText {
+  font-size: 45px;
+  line-height: 45px;
+}
 .adsImg {
   height: 627.71px;
   width: 304px;
@@ -365,30 +369,7 @@
   font-weight: 900;
   color: #e31662;
 }
-/* .subscribCard {
-  width: 448px;
-  height: 510px;
-  border: 1px solid red;
-}
-.cardTitle {
-  font-size: 22px;
-  line-height: 27px;
-}
-.cardPrice {
-  font-size: 20px;
-  line-height: 27px;
-  color: #4765e6;
-}
-.price {
-  font-size: 27px;
-  line-height: 40px;
-  margin-right: 10px;
-}
-.cardTime {
-  font-size: 20px;
-  line-height: 27px;
-  color: black;
-} */
+
 /* End */
 
 /* Medai Queries for responsive design */
@@ -424,7 +405,7 @@
     line-height: 39.68px;
   }
   .heroButton {
-    padding: 5px 10px;
+    /* padding: 10px 15px !important; */
     border-radius: 30px;
     font-weight: 400;
     font-size: 14px;
@@ -525,6 +506,14 @@
   .adsMatterSection {
     height: 1054px;
     /* background-image: url('../images/reward-bg.png'); */
+  }
+  .adsTitleText {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .adsImg {
+    height: 450px;
+    width: 240px;
   }
   /* End */
   /* tellStorySection */

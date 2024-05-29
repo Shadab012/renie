@@ -46,7 +46,7 @@ function Home() {
       <div className='tellStorySection flex justify-center items-center'>
         <TellStory />
       </div>
-      <div className='subcribCardsSection'>
+      <div className='subcribCardsSection md:mb-10'>
         <SubscribCards />
       </div>
     </div>
