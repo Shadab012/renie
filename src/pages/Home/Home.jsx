@@ -4,6 +4,7 @@ import Arrow from '../../assets/images/arrow.png';
 import TrustedBy from '../../components/TrustedBy';
 import About from './components/About';
 import HeroSection from './components/HeroSection';
+import RenieBin from './components/RenieBin';
 import ServiceCards from './components/ServiceCards';
 function Home() {
   return (
@@ -22,6 +23,9 @@ function Home() {
       </div>
       <div className='serviceCardsSection my-10'>
         <ServiceCards />
+      </div>
+      <div className='renieBinSection my-10 '>
+        <RenieBin />
       </div>
     </div>
   );

@@ -93,7 +93,7 @@
 .serviceCardsSection {
   position: relative;
   height: 858px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow: hidden; /* Ensures that the pseudo-element is contained within the section */
 }
 
@@ -166,6 +166,56 @@
   width: 180px;
   height: 180px;
 }
+/* End */
+
+/* RenieBin Section Start */
+.renieBinSection {
+  height: 899px;
+  /* border: 1px solid black; */
+}
+.renieTitleText {
+  font-size: 45px;
+  line-height: 45px;
+}
+.renieSubTitle {
+  font-size: 35px;
+  line-height: 35px;
+  color: #ff0e64;
+}
+.dataSection {
+  background-image: url('../images/renie-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.iconImg {
+  width: 64px;
+  height: 64px;
+}
+.iconText {
+  font-size: 22px;
+  line-height: 35px;
+  color: #ff0e64;
+}
+.iconTitle {
+  font-size: 22px;
+  line-height: 35px;
+}
+.iconItem {
+  height: auto;
+}
+/* .renieCenter {
+ 
+} */
+.renieCenteredImg {
+  width: 486.87px;
+  height: 703.68px;
+}
+.reniebigImgText {
+  font-size: 15px;
+  line-height: 15px;
+  color: #ff0e64;
+}
+
 /* End */
 /* Medai Queries for responsive design */
 @media screen and (max-width: 768px) {
@@ -257,4 +307,13 @@
     background-clip: padding-box;
   }
   /* end */
+  /* RenieBin */
+  .renieCenteredImg {
+    width: 291.49px;
+    height: 420.75px;
+  }
+  .iconItem {
+    display: flex !important;
+  }
+  /* End */
 }
