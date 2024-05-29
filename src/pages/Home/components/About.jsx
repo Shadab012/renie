@@ -27,9 +27,9 @@ function About() {
             venture.
           </p>
         </div>
-        <div className='arrowSection relative w-full flex mx-10  hidden md:flex px-10 '>
+        {/* <div className='arrowSection relative w-full flex mx-10  hidden md:flex px-10 '>
           <img className='arrowImg absolute top-6' src={Arrow} alt='' />
-        </div>
+        </div> */}
       </div>
     </div>
   );
