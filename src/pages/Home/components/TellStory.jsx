@@ -14,13 +14,13 @@ function TellStory() {
           </span>
         </div>
         <div className='tellImagesSection relative flex md:flex-row flex-col justify-around items-center  w-full '>
-          <div className='blackImage md:w-auto w-8/12 '>
+          <div className='blackImage md:w-auto w-11/12 '>
             <img className='blackBottle' src={blackImg} alt='' />
           </div>
           <div className='arrowImage  '>
             <img className='horizentalArrow' src={ArrowImg} alt='' />
           </div>
-          <div className='pinkImage md:w-auto w-8/12 '>
+          <div className='pinkImage md:w-auto w-11/12 '>
             <img className='pinkBottle' src={binBigImg} alt='' />
           </div>
         </div>

@@ -9,71 +9,6 @@ import trustImg3 from '../assets/images/trust-3.png';
 import trustImg4 from '../assets/images/trust-4.png';
 import trustImg5 from '../assets/images/trust-5.png';
 
-// function TrustedBy() {
-//   const settings = {
-//     dots: true,
-//     infinite: true,
-//     speed: 500,
-//     slidesToShow: 5,
-//     slidesToScroll: 1,
-//     responsive: [
-//       {
-//         breakpoint: 1024,
-//         settings: {
-//           slidesToShow: 5,
-//           slidesToScroll: 1,
-//           infinite: true,
-//           dots: true,
-//         },
-//       },
-//       {
-//         breakpoint: 768,
-//         settings: {
-//           slidesToShow: 2,
-//           slidesToScroll: 1,
-//           infinite: true,
-//           dots: true,
-//         },
-//       },
-//       {
-//         breakpoint: 480,
-//         settings: {
-//           slidesToShow: 1,
-//           slidesToScroll: 1,
-//           infinite: true,
-//           dots: true,
-//         },
-//       },
-//     ],
-//   };
-
-//   return (
-//     <div className='trustMain w-10/12 border border-black mx-auto mb-10'>
-//       <div className='trustTitle flex justify-center my-2'>
-//         <span className='trustTitleText gradient-text'>TrustedBy</span>
-//       </div>
-//       <Slider {...settings}>
-//         <div className='flex justify-center  trustItem1'>
-//           <img className='trustItem' src={trustImg1} alt='Trust 1' />
-//         </div>
-//         <div className='flex justify-center  trustItem2'>
-//           <img className='trustItem' src={trustImg2} alt='Trust 2' />
-//         </div>
-//         <div className='flex justify-center  trustItem3'>
-//           <img className='trustItem' src={trustImg3} alt='Trust 3' />
-//         </div>
-//         <div className='flex justify-center  trustItem4'>
-//           <img className='trustItem' src={trustImg4} alt='Trust 4' />
-//         </div>
-//         <div className='flex justify-center  trustItem5'>
-//           <img className='trustItem' src={trustImg5} alt='Trust 5' />
-//         </div>
-//       </Slider>
-//     </div>
-//   );
-// }
-
-// export default TrustedBy;
 function TrustedBy() {
   const settings = {
     dots: true,
@@ -103,7 +38,7 @@ function TrustedBy() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -118,13 +53,36 @@ function TrustedBy() {
         <span className='trustTitleText gradient-text'>TrustedBy</span>
       </div>
       <Slider {...settings}>
-        <div className='trustItem'>
-          <img className='trustItem1' src={trustImg1} alt='Trust 1' />
+        <div className='item '>
+          <div className='trustItem'>
+            <img className='trustItem1' src={trustImg1} alt='Trust 1' />
+          </div>
         </div>
-        <div className='trustItem'>
+        <div className='item'>
+          <div className='trustItem'>
+            <img className='trustItem1' src={trustImg2} alt='Trust 1' />
+          </div>
+        </div>
+        <div className='item'>
+          <div className='trustItem'>
+            <img className='trustItem1' src={trustImg3} alt='Trust 1' />
+          </div>
+        </div>
+        <div className='item'>
+          <div className='trustItem'>
+            <img className='trustItem1' src={trustImg4} alt='Trust 1' />
+          </div>
+        </div>
+        <div className='item'>
+          <div className='trustItem'>
+            <img className='trustItem1' src={trustImg5} alt='Trust 1' />
+          </div>
+        </div>
+
+        {/* <div className='trustItem'>
           <img className='trustItem2' src={trustImg2} alt='Trust 2' />
-        </div>
-        <div className='trustItem'>
+        </div> */}
+        {/* <div className='trustItem'>
           <img className='trustItem3' src={trustImg3} alt='Trust 3' />
         </div>
         <div className='trustItem'>
@@ -132,7 +90,7 @@ function TrustedBy() {
         </div>
         <div className='trustItem'>
           <img className='trustItem5' src={trustImg5} alt='Trust 5' />
-        </div>
+        </div> */}
       </Slider>
     </div>
   );

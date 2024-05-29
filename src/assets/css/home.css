@@ -354,6 +354,17 @@
   line-height: 27px;
   color: black;
 }
+.imageTitleText {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 900;
+}
+.imageTitleTime {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 900;
+  color: #e31662;
+}
 /* .subscribCard {
   width: 448px;
   height: 510px;
@@ -576,17 +587,32 @@
   .customCard {
     width: 300px !important;
     height: 570px;
-    background-image: url('../images/custom-bg.png');
+    background-image: url('../images/customMobile-bg.png');
     background-repeat: round;
     background-size: cover;
+    /* border: 1px solid black; */
     /* border-radius: 20px; */
   }
   .customCard:hover {
-    background-image: url('../images/custom-bg.png');
+    background-image: url('../images/customMobile-bg.png');
     background-repeat: round;
     background-size: cover;
     width: 300px !important;
     height: 570px;
+  }
+  .imageTitle {
+    width: auto !important;
+  }
+  .imageTitleText {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 900;
+  }
+  .imageTitleTime {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 900;
+    color: #e31662;
   }
   /* End */
 }
