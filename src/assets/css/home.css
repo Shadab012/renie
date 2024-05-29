@@ -244,6 +244,43 @@
   width: 304px;
 }
 /* end */
+/* TellStory Section */
+.tellStorySection {
+  height: 750px;
+  /* border: 1px solid black; */
+}
+.tellStoryTitle {
+  font-size: 35px;
+  line-height: 45px;
+  color: #ff0e64;
+}
+.tellStorySubTitle {
+  font-size: 35px;
+  line-height: 35px;
+}
+.blackBottle {
+  width: 284px;
+  height: 409px;
+}
+.pinkBottle {
+  width: 292px;
+  height: 422px;
+}
+.horizentalArrow {
+  width: 418.82px;
+  height: 159.48px;
+}
+.redLink {
+  font-size: 15px;
+  line-height: 15px;
+  color: #ff0e64;
+}
+.blueLink {
+  font-size: 15px;
+  line-height: 15px;
+  color: #4765e6;
+}
+/* End */
 
 /* Medai Queries for responsive design */
 @media screen and (max-width: 768px) {
@@ -361,6 +398,45 @@
   .adsMatterSection {
     height: 1054px;
     /* background-image: url('../images/reward-bg.png'); */
+  }
+  /* End */
+  /* tellStorySection */
+  .tellStorySection {
+    height: 985px;
+  }
+  .tellStoryTitle {
+    font-size: 25px;
+  }
+  .tellStorySubTitle {
+    font-size: 25px;
+  }
+  .blackImage {
+    display: flex;
+    justify-content: start;
+  }
+  .pinkImage {
+    display: flex;
+    justify-content: end;
+  }
+  .arrowImage {
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    /* transform: translate(-32%, -60%); */
+  }
+  .blackBottle {
+    width: 179px;
+    height: 257px;
+  }
+  .pinkBottle {
+    margin-top: 2rem;
+    height: 334.09px;
+    width: 230.9px;
+  }
+  .horizentalArrow {
+    width: 123.5px;
+    height: 51.48px;
+    transform: rotate(75deg);
   }
   /* End */
 }

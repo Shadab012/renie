@@ -9,6 +9,7 @@ import RenieBin from './components/RenieBin';
 import RenieHub from './components/RenieHub';
 import RenieRewardSection from './components/RenieRewardSection';
 import ServiceCards from './components/ServiceCards';
+import TellStory from './components/TellStory';
 
 function Home() {
   return (
@@ -39,6 +40,9 @@ function Home() {
       </div>
       <div className='adsMatterSection flex justify-center items-center'>
         <AdsMatter />
+      </div>
+      <div className='tellStorySection flex justify-center items-center'>
+        <TellStory />
       </div>
     </div>
   );
