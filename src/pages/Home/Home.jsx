@@ -24,7 +24,7 @@ function Home() {
       <div className='trustedBySection my-5'>
         <TrustedBy />
       </div>
-      <div className='aboutSection mt-10'>
+      <div className='aboutSection mt-10 pt-10'>
         <About />
       </div>
       <div className='serviceCardsSection my-10'>
@@ -44,9 +44,6 @@ function Home() {
       </div>
       <div className='tellStorySection flex justify-center items-center'>
         <TellStory />
-      </div>
-      <div className='subscribtoinSection flex justify-center items-center'>
-        <SubscribtionCards />
       </div>
     </div>
   );

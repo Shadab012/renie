@@ -46,7 +46,11 @@ function CardSection() {
             Data monetization
           </span>
           <div className='cardIconsSection'>
-            <img className='iconImg' src={cardIcons} alt='Data monetization' />
+            <img
+              className='cardIconImg'
+              src={cardIcons}
+              alt='Data monetization'
+            />
           </div>
           <p className='cardPeragraph px-5'>
             The data coming from Renie Bins is received by multiple Renie
@@ -86,7 +90,7 @@ function CardSection() {
             </span>
             <div className='cardIconsSection'>
               <img
-                className='iconImg'
+                className='cardIconImg'
                 src={cardIcons}
                 alt='Data monetization'
               />

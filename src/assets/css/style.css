@@ -40,6 +40,14 @@
   padding: 10px 15px;
   font-weight: 400 !important;
 }
+.menuIcon {
+  color: #e31662;
+}
+.linkItem {
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+}
 /* Footer Component */
 .footer {
   background: #edf0fc;

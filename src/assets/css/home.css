@@ -66,7 +66,7 @@
 /* About sectoin start */
 .aboutSection {
   height: 448.5px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .imageSection {
   width: 448.5px;
@@ -115,18 +115,28 @@
   font-size: 35px;
   line-height: 45px;
 }
-
+/* old */
+/* .cardItem {
+  position: relative;
+  height: 578px;
+  width: 390px;
+  background-image: url('../images/card-bg.png');
+  border-radius: 20px;
+  padding: 10px; 
+  background-clip: padding-box;
+} */
 .cardItem {
   position: relative;
   height: 578px;
   width: 390px;
   background-image: url('../images/card-bg.png');
+  background-size: contain;
+  background-repeat: round;
   border-radius: 20px; /* Adjust as needed */
   overflow: hidden;
   padding: 10px; /* Adjust as needed */
   background-clip: padding-box; /* This ensures the padding is within the rounded border */
 }
-
 .cardItem::before {
   content: '';
   position: absolute;
@@ -159,6 +169,10 @@
 .incomeCardImg {
   width: 180px;
   height: 180px;
+}
+.cardIconImg {
+  height: 318px;
+  width: 100%;
 }
 /* End */
 
@@ -373,7 +387,7 @@
   /* About Section mobile */
   .aboutSection {
     height: 689px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   .imageSection {
     width: 296px;
@@ -399,18 +413,36 @@
     margin: 10px auto;
     position: relative;
     height: 578px !important;
-    width: 390px !important;
+    width: 300px !important;
     background-image: url('../images/card-bg.png');
+    background-repeat: round !important;
     border-radius: 20px;
     overflow: hidden;
     padding: 10px !important;
     background-clip: padding-box;
   }
+  .cardIconsSection {
+    height: 308px;
+    width: 80%;
+  }
+  .cardIconImg {
+    height: 100%;
+    width: 100%;
+  }
   /* end */
   /* RenieBin */
+  .dataSection {
+    background: none;
+  }
+  .renieCenter {
+    background-image: url('../images/renie-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
   .renieCenteredImg {
-    width: 291.49px;
-    height: 420.75px;
+    width: 242.49px;
+    height: 350.75px;
   }
   .iconItem {
     display: flex !important;
