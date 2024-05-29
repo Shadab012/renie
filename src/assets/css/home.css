@@ -281,6 +281,41 @@
   color: #4765e6;
 }
 /* End */
+/* subscribtoinSection */
+.subscribtoinSection {
+  height: 600px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.subscribImg {
+  width: 292.54px;
+  height: 421.79px;
+}
+.subscribCard {
+  width: 448px;
+  height: 510px;
+  border: 1px solid red;
+}
+.cardTitle {
+  font-size: 22px;
+  line-height: 27px;
+}
+.cardPrice {
+  font-size: 20px;
+  line-height: 27px;
+  color: #4765e6;
+}
+.price {
+  font-size: 27px;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.cardTime {
+  font-size: 20px;
+  line-height: 27px;
+  color: black;
+}
+/* End */
 
 /* Medai Queries for responsive design */
 @media screen and (max-width: 768px) {
