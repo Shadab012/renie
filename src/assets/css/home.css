@@ -115,13 +115,7 @@
   font-size: 35px;
   line-height: 45px;
 }
-/* .cardItem {
-  height: 578px;
-  width: 390px;
-  background-image: url('../images/card-bg.png');
-  border: 10px solid; 
-  border-image: linear-gradient(90deg, #4765e6, #5c4099, #e31662) 1;
-} */
+
 .cardItem {
   position: relative;
   height: 578px;
@@ -217,6 +211,40 @@
 }
 
 /* End */
+/* RenieRewards Section */
+.renieRewardSection {
+  height: 487px;
+  background-image: url('../images/reward-bg.png');
+  /* border: 1px solid black; */
+}
+.rewardImg {
+  width: 486.15px;
+  height: 369px;
+}
+.rewardTitleMain {
+  font-size: 35px;
+  line-height: 35px;
+}
+/* End */
+/* RenieHub Start */
+.renieHubSection {
+  height: 750px;
+  /* background-image: url('../images/reward-bg.png'); */
+  /* border: 1px solid black; */
+}
+/* end */
+
+/* adsMatterSection */
+.adsMatterSection {
+  height: 656px;
+  background-image: url('../images/reward-bg.png');
+}
+.adsImg {
+  height: 627.71px;
+  width: 304px;
+}
+/* end */
+
 /* Medai Queries for responsive design */
 @media screen and (max-width: 768px) {
   .heroSection {
@@ -314,6 +342,25 @@
   }
   .iconItem {
     display: flex !important;
+  }
+  /* End */
+  /* RenieReward */
+  .renieRewardSection {
+    height: 664px;
+  }
+  .rewardImg {
+    width: 330.42px;
+    height: 251px;
+  }
+  .rewardTitleMain {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  /* end */
+  /* adsMatterSection */
+  .adsMatterSection {
+    height: 1054px;
+    /* background-image: url('../images/reward-bg.png'); */
   }
   /* End */
 }

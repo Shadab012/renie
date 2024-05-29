@@ -18,7 +18,7 @@ function About() {
           </span>
         </div>
         <div>
-          <p className='aboutPeragraph font-normal'>
+          <p className='aboutPeragraph font-normal text-center md:text-left'>
             We transform your company’s waste from a cost into a source of
             income with Renie Bins. Our innovative bins collect data from your
             waste, feeding it into Renie’s data monetization software to uncover
