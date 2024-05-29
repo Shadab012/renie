@@ -305,7 +305,56 @@
   width: 292.54px;
   height: 421.79px;
 }
-.subscribCard {
+.standardCard {
+  width: 300px;
+  height: 480px;
+  border-radius: 20px;
+  background-image: url('../images/standard-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.standardCard:hover {
+  width: 400px;
+  height: 582px;
+  background-image: url('../images/card-bg.png');
+  background-repeat: round;
+  background-size: cover;
+}
+.customCard {
+  width: 300px;
+  height: 480px;
+  background-image: url('../images/custom-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-radius: 20px; */
+}
+.customCard:hover {
+  width: 400px;
+  height: 582px;
+  background-image: url('../images/customHover-bg.png');
+  background-repeat: round;
+  background-size: cover;
+}
+.cardTitle {
+  font-size: 22px;
+  line-height: 27px;
+}
+.cardPrice {
+  font-size: 20px;
+  line-height: 27px;
+  color: #4765e6;
+}
+.price {
+  font-size: 27px;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.cardTime {
+  font-size: 20px;
+  line-height: 27px;
+  color: black;
+}
+/* .subscribCard {
   width: 448px;
   height: 510px;
   border: 1px solid red;
@@ -328,7 +377,7 @@
   font-size: 20px;
   line-height: 27px;
   color: black;
-}
+} */
 /* End */
 
 /* Medai Queries for responsive design */
@@ -504,6 +553,40 @@
     width: 123.5px;
     height: 51.48px;
     transform: rotate(75deg);
+  }
+  /* End */
+  /* SubscribCard Start */
+  .subcribCardsSection {
+    height: 1806px;
+  }
+  .standardCard {
+    width: 300px !important;
+    height: 570px;
+    border-radius: 20px;
+    background-image: url('../images/standard-bg.png');
+    background-repeat: round;
+    background-size: cover;
+  }
+  .standardCard:hover {
+    width: 300px !important;
+    height: 570px;
+    background-image: url('../images/standard-bg.png');
+    background-size: cover;
+  }
+  .customCard {
+    width: 300px !important;
+    height: 570px;
+    background-image: url('../images/custom-bg.png');
+    background-repeat: round;
+    background-size: cover;
+    /* border-radius: 20px; */
+  }
+  .customCard:hover {
+    background-image: url('../images/custom-bg.png');
+    background-repeat: round;
+    background-size: cover;
+    width: 300px !important;
+    height: 570px;
   }
   /* End */
 }

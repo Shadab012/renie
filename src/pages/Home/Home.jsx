@@ -9,7 +9,8 @@ import RenieBin from './components/RenieBin';
 import RenieHub from './components/RenieHub';
 import RenieRewardSection from './components/RenieRewardSection';
 import ServiceCards from './components/ServiceCards';
-import SubscribtionCards from './components/SubscribtionCards';
+import SubscribCards from './components/SubscribCards';
+// import SubscribtionCards from './components/SubscribtionCards';
 import TellStory from './components/TellStory';
 
 function Home() {
@@ -44,6 +45,9 @@ function Home() {
       </div>
       <div className='tellStorySection flex justify-center items-center'>
         <TellStory />
+      </div>
+      <div className='subcribCardsSection'>
+        <SubscribCards />
       </div>
     </div>
   );
