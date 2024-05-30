@@ -344,6 +344,17 @@
   background-repeat: round;
   background-size: cover;
 }
+.mostPopularLabel {
+  position: absolute !important;
+  top: -7%;
+  right: 6%;
+  border: 1px solid black;
+  width: 205px;
+  height: 46px;
+  font-size: 18px;
+  line-height: 45px;
+  background: linear-gradient(90deg, #4765e6, #5c4099, #e31662);
+}
 .cardTitle {
   font-size: 22px;
   line-height: 27px;
@@ -576,7 +587,7 @@
   /* End */
   /* SubscribCard Start */
   .subcribCardsSection {
-    height: 1806px;
+    height: 1860px;
   }
   .standardCard {
     width: 300px !important;
@@ -607,6 +618,17 @@
     background-size: cover;
     width: 300px !important;
     height: 570px;
+  }
+  .mostPopularLabel {
+    position: absolute !important;
+    top: -8%;
+    right: 6%;
+    border: 1px solid black;
+    width: 205px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 45px;
+    background: linear-gradient(90deg, #4765e6, #5c4099, #e31662);
   }
   .imageTitle {
     width: auto !important;

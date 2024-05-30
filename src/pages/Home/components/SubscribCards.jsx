@@ -16,7 +16,7 @@ function SubscribCards() {
         <img className='subscribImg' src={cardImg} alt='' />
       </div>
       <div className='subscribCardsSection flex md:flex-row flex-col md:items-end'>
-        <div className='standardCard  flex flex-col justify-center items-start px-10'>
+        <div className='standardCard  flex flex-col justify-center items-start px-10 md:mb-0 mb-5'>
           <span className='cardTitle gradient-text font-semibold'>
             Renie Bin Standard
           </span>
@@ -36,7 +36,10 @@ function SubscribCards() {
             </Link>
           </div>
         </div>
-        <div className='customCard rounded-xl hover:rounded-sm flex flex-col justify-center items-start px-10'>
+        <div className='customCard relative rounded-xl hover:rounded-sm flex flex-col justify-center items-start px-10 mt-10 md:mt-0'>
+          <div className='mostPopularLabel font-semibold text-white rounded-md flex justify-center items-center '>
+            MOST POPULAR
+          </div>
           <span className='cardTitle gradient-text font-semibold'>
             Renie Bin Standard
           </span>
