@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import '../../assets/css/home.css';
 import Arrow from '../../assets/images/arrow.png';
 import TrustedBy from '../../components/TrustedBy';
@@ -13,10 +13,17 @@ import SubscribCards from './components/SubscribCards';
 import TellStory from './components/TellStory';
 
 function Home() {
+  const serviceCardRef = useRef(null);
+
+  const scrollToServiceCard = () => {
+    if (serviceCardRef.current) {
+      serviceCardRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div>
       <div className='homeHeroSection'>
-        <HeroSection />
+        <HeroSection scrollToServiceCard={scrollToServiceCard} />
       </div>
       {/* <div className='arrowSection flex justify-center md:hidden'>
         <img className='arrowImg' src={Arrow} alt='' />
@@ -27,10 +34,10 @@ function Home() {
       <div className='aboutSection my-10 pt-10'>
         <About />
       </div>
-      <div className='serviceCardsSection my-10'>
+      <div className='serviceCardsSection mt-10' ref={serviceCardRef}>
         <ServiceCards />
       </div>
-      <div className='renieBinSection my-10 '>
+      <div className='renieBinSection mb-10 py-10 '>
         <ReniebinSection />
       </div>
       <div className='renieRewardSection flex justify-center items-center mt-10'>

@@ -95,6 +95,7 @@
 .serviceCardsSection {
   position: relative;
   height: 858px;
+  background-image: url('../images/buttomGradient-bg.png');
   /* border: 1px solid black; */
   overflow: hidden; /* Ensures that the pseudo-element is contained within the section */
 }
@@ -181,6 +182,7 @@
 /* RenieBin Section Start */
 .renieBinSection {
   height: 899px;
+  background-image: url('../images/topGradient-bg.png');
   /* border: 1px solid black; */
 }
 .renieTitleText {
@@ -245,7 +247,7 @@
 /* RenieHub Start */
 .renieHubSection {
   height: 750px;
-  background-image: url('../images/rinieHub-bg.png');
+  background-image: url('../images/topGradient-bg.png');
   /* background-image: url('../images/reward-bg.png'); */
   /* border: 1px solid black; */
 }

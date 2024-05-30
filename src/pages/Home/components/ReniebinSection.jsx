@@ -29,7 +29,7 @@ function ReniebinSection() {
 
   return (
     <div className='renieMain h-full  w-10/12  mx-auto'>
-      <div className='renieTitleSection my-5 text-center '>
+      <div className='renieTitleSection mb-5 text-center '>
         <span className='renieTitleText font-bold gradient-text'>
           Renie Bin
         </span>{' '}

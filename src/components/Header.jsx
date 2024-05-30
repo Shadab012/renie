@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import logo from '../assets/images/logo.png';
+// import logo from '../assets/images/logo.png';
+import logoSVG from '../assets/images/logoSVG.svg';
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -8,7 +9,7 @@ const Header = () => {
       <div className=' mx-auto px-4 sm:px-6 lg:px-8 md:w-10/12'>
         <div className='flex justify-between items-center h-16'>
           <div className='flex-shrink-0 headerLogo'>
-            <img className='' src={logo} alt='Logo' />
+            <img className='' src={logoSVG} alt='Logo' />
           </div>
           <div className='hidden md:flex md:justify-center gap-5 space-x-4'>
             <a href='#' className='linkItem'>
