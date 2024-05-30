@@ -1,27 +1,19 @@
 import React from 'react';
 import '../../assets/css/home.css';
 import Arrow from '../../assets/images/arrow.png';
-import TrustedBy from '../../components/TrustedBy';
-import About from './components/About';
-import AdsMatter from './components/AdsMatter';
-import HeroSection from './components/HeroSection';
-import ReniebinSection from './components/ReniebinSection';
-import RenieHub from './components/RenieHub';
-import RenieRewardSection from './components/RenieRewardSection';
-import ServiceCards from './components/ServiceCards';
-import SubscribCards from './components/SubscribCards';
-import TellStory from './components/TellStory';
 
-function Home() {
+import HeroSection from './components/HeroSection';
+
+function Reniebin() {
   return (
     <div>
       <div className='heroSection'>
         <HeroSection />
       </div>
-      <div className='arrowSection flex justify-center md:hidden'>
+      {/* <div className='arrowSection flex justify-center md:hidden'>
         <img className='arrowImg' src={Arrow} alt='' />
-      </div>
-      <div className='trustedBySection my-5'>
+      </div> */}
+      {/* <div className='trustedBySection my-5'>
         <TrustedBy />
       </div>
       <div className='aboutSection mt-10 pt-10'>
@@ -47,9 +39,9 @@ function Home() {
       </div>
       <div className='subcribCardsSection md:mb-10'>
         <SubscribCards />
-      </div>
+      </div> */}
     </div>
   );
 }
 
-export default Home;
+export default Reniebin;

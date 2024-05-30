@@ -13,7 +13,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-function RenieBin() {
+function ReniebinSection() {
   const settings = {
     dots: true,
     infinite: true,
@@ -172,4 +172,4 @@ function RenieBin() {
   );
 }
 
-export default RenieBin;
+export default ReniebinSection;
