@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Home /> */}
-      <Reniebin />
+      <Home />
+      {/* <Reniebin /> */}
       <Footer />
     </>
   );

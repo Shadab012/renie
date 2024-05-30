@@ -11,15 +11,17 @@
   background-clip: text;
 }
 /* Hero section Start */
-.heroSection {
+.homeHeroSection {
   width: 100%;
   height: 810px;
-  background: url('../images/home.png');
+  background: url('../images/homeHero-bg.png');
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position-y: center;
 }
-
+.heroTitle {
+  margin-top: 5.5rem !important;
+}
 .transform {
   font-weight: 600;
   font-size: 61.13px;
@@ -243,6 +245,7 @@
 /* RenieHub Start */
 .renieHubSection {
   height: 750px;
+  background-image: url('../images/rinieHub-bg.png');
   /* background-image: url('../images/reward-bg.png'); */
   /* border: 1px solid black; */
 }
@@ -373,13 +376,16 @@
 /* End */
 
 /* Medai Queries for responsive design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .heroSection {
     width: 100%;
     height: 579px;
     background: url('../images/home-hero-mobile.png');
     background-repeat: no-repeat;
     background-size: cover !important;
+  }
+  .heroTitle {
+    margin-top: 1rem !important;
   }
   .transform {
     font-weight: 600;
@@ -429,6 +435,7 @@
   .aboutSection {
     height: 689px;
     /* border: 1px solid black; */
+    margin-bottom: 8rem !important;
   }
   .imageSection {
     width: 296px;
@@ -449,6 +456,11 @@
   }
   /* end */
   /* serviceCard  */
+  .serviceCardsSection {
+    position: relative;
+    height: 750px !important;
+    overflow: hidden; /* Ensures that the pseudo-element is contained within the section */
+  }
   .cardItem {
     display: flex !important;
     margin: 10px auto;
@@ -502,9 +514,14 @@
     line-height: 35px;
   }
   /* end */
+  /* RenieHub */
+  .renieHubSection {
+    height: 985px !important;
+  }
+  /* End */
   /* adsMatterSection */
   .adsMatterSection {
-    height: 1054px;
+    height: 1250px !important;
     /* background-image: url('../images/reward-bg.png'); */
   }
   .adsTitleText {

@@ -1,14 +1,14 @@
 import React from 'react';
-import '../../assets/css/home.css';
+import '../../assets/css/reniebin.css';
 import Arrow from '../../assets/images/arrow.png';
 
-import HeroSection from './components/HeroSection';
+import HeroBin from './components/HeroBin';
 
 function Reniebin() {
   return (
     <div>
-      <div className='heroSection'>
-        <HeroSection />
+      <div className='binHeroSection flex'>
+        <HeroBin />
       </div>
       {/* <div className='arrowSection flex justify-center md:hidden'>
         <img className='arrowImg' src={Arrow} alt='' />

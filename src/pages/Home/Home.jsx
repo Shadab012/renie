@@ -15,16 +15,16 @@ import TellStory from './components/TellStory';
 function Home() {
   return (
     <div>
-      <div className='heroSection'>
+      <div className='homeHeroSection'>
         <HeroSection />
       </div>
-      <div className='arrowSection flex justify-center md:hidden'>
+      {/* <div className='arrowSection flex justify-center md:hidden'>
         <img className='arrowImg' src={Arrow} alt='' />
-      </div>
+      </div> */}
       <div className='trustedBySection my-5'>
         <TrustedBy />
       </div>
-      <div className='aboutSection mt-10 pt-10'>
+      <div className='aboutSection my-10 pt-10'>
         <About />
       </div>
       <div className='serviceCardsSection my-10'>
@@ -33,7 +33,7 @@ function Home() {
       <div className='renieBinSection my-10 '>
         <ReniebinSection />
       </div>
-      <div className='renieRewardSection flex justify-center items-center my-10'>
+      <div className='renieRewardSection flex justify-center items-center mt-10'>
         <RenieRewardSection />
       </div>
       <div className='renieHubSection flex justify-center items-center '>
