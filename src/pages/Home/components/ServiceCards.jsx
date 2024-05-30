@@ -19,7 +19,10 @@ function CardSection() {
 
   return (
     <div className=''>
-      <div className='serviceTitle flex justify-center'>
+      <div className='arrowSection flex justify-center  hidden md:flex'>
+        <img className='arrowImg' src={Arrow} alt='' />
+      </div>
+      <div className='serviceTitle flex justify-center my-5'>
         {' '}
         <span className='serviceTitleText font-semibold gradient-text'>
           How it works{' '}
