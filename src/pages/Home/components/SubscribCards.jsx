@@ -4,7 +4,7 @@ import cardImg from '../../../assets/images/bin-1.png';
 import StandardImg from '../../../assets/images/standardFeature.png';
 function SubscribCards() {
   return (
-    <div className=' w-10/12  flex  gap-10 items-center md:items-end flex-col md:flex-row  justify-center md:justify-between  mx-auto '>
+    <div className=' w-10/12 contentSection flex  gap-10 items-center md:items-end flex-col md:flex-row  justify-center md:justify-between  mx-auto '>
       <div className='subscribImageSection flex flex-col gap-5 justify-center items-center h-full'>
         <div className='imageTitle flex flex-col justify-center w-full'>
           <span className='imageTitleText gradient-text'>

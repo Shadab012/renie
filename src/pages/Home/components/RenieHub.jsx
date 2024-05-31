@@ -2,7 +2,7 @@ import React from 'react';
 import HubImg from '../../../assets/images/hubImg-1.png';
 function RenieHub() {
   return (
-    <div className='w-11/12 md:w-10/12  my-5  flex flex-col items-center md:flex-row md:gap-10 justify-center md:justify-between  mx-auto '>
+    <div className='w-11/12 contentSection md:w-10/12  my-5  flex flex-col items-center md:flex-row md:gap-10 justify-center md:justify-between  mx-auto '>
       {' '}
       <div className='rewardImageSection'>
         <img className='rewardImg' src={HubImg} alt='about image' />

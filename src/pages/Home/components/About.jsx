@@ -3,7 +3,7 @@ import AboutImg from '../../../assets/images/aboutImg.png';
 import Arrow from '../../../assets/images/arrow.png';
 function About() {
   return (
-    <div className='w-11/12 md:w-10/12 flex flex-col items-center md:flex-row md:gap-10 justify-center md:justify-between  mx-auto '>
+    <div className='contentSection w-11/12 md:w-10/12 flex flex-col items-center md:flex-row md:gap-10 justify-center md:justify-between  mx-auto '>
       <div className='imageSection'>
         <img className='aboutImg' src={AboutImg} alt='about image' />
       </div>

@@ -4,7 +4,7 @@ import ArrowImg from '../../../assets/images/arrowIcon.png';
 import binBigImg from '../../../assets/images/bin-1.png';
 function TellStory() {
   return (
-    <div className='w-11/12 flex flex-col gap-5 md:w-10/12 mx-auto '>
+    <div className='w-11/12 contentSection flex flex-col gap-5 md:w-10/12 mx-auto '>
       <div className='flex md:flex-col flex-col-reverse items-center  justify-center md:justify-between'>
         <div className='renieTitleSection my-5 text-center '>
           <span className='tellStoryTitle font-bold  '>Tell your story</span>{' '}

@@ -2,7 +2,7 @@ import React from 'react';
 import MobileImg from '../../../assets/images/mobile.png';
 function AdsMatter() {
   return (
-    <div className='w-11/12 md:w-10/12  my-5 items-center flex flex-col md:flex-row-reverse md:gap-10 justify-center md:justify-between  mx-auto '>
+    <div className='contentSection w-11/12 md:w-10/12  my-5 items-center flex flex-col md:flex-row-reverse md:gap-10 justify-center md:justify-between  mx-auto '>
       {' '}
       <div className='rewardImageSection'>
         <img className='adsImg' src={MobileImg} alt='about image' />

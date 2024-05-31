@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/images/logo.png';
+import logoSVG from '../assets/images/logoSVG.svg';
 import linkedinIcon from '../assets/images/linkedin.png';
 import tiktokIcon from '../assets/images/tiktok.png';
 import twiterIcon from '../assets/images/linkedin.png';
@@ -13,7 +13,7 @@ function Footer() {
       <div className=' flex flex-col lg:flex-row  justify-evenly items-center gap-5 mb-5'>
         <div className='LogoSection flex flex-col items-center md:items-start  w-11/12 md:w-5/12 '>
           <Link to='/' className='footerLogo w-auto flex items-center'>
-            <img src={logo} className='' alt='Logo' />
+            <img src={logoSVG} className='' alt='Logo' />
           </Link>
           <div className='py-2'>
             <p className='footerText text-black'>

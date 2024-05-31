@@ -5,8 +5,8 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className=' bg-white shadow-md border py-3   '>
-      <div className=' mx-auto px-4 sm:px-6 lg:px-8 md:w-10/12'>
+    <header className=' bg-white shadow-md border md:py-3   '>
+      <div className=' contentSection mx-auto px-4 sm:px-6 lg:px-8 md:w-10/12'>
         <div className='flex justify-between items-center h-16'>
           <div className='flex-shrink-0 headerLogo'>
             <img className='' src={logoSVG} alt='Logo' />

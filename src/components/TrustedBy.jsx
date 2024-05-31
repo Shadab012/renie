@@ -48,7 +48,7 @@ function TrustedBy() {
   };
 
   return (
-    <div className='trustMain w-10/12 flex flex-col gap-10  mx-auto mb-10'>
+    <div className='trustMain contentSection w-10/12 flex flex-col gap-10  mx-auto mb-10'>
       <div className='trustTitle flex justify-center'>
         <span className='trustTitleText gradient-text'>TrustedBy</span>
       </div>
