@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import cardImg from '../../../assets/images/bin-1.png';
+import cardImg from '../../../assets/images//bin-1.webp';
 import StandardImg from '../../../assets/images/standardFeature.png';
 function SubscribCards() {
   return (
@@ -15,7 +15,7 @@ function SubscribCards() {
         </div>
         <img className='subscribImg' src={cardImg} alt='' />
       </div>
-      <div className='subscribCardsSection md:8/12 flex md:flex-row justify-end flex-col md:items-end'>
+      <div className='subscribCardsSection md:8/12 flex md:flex-row justify-end flex-col md:items-end md:mt-0 mt-10 '>
         <div className='standardCard  flex flex-col justify-center items-start px-10 md:mb-0 mb-5'>
           <span className='cardTitle gradient-text font-semibold'>
             Renie Bin Standard

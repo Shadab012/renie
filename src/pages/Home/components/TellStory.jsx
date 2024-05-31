@@ -1,7 +1,7 @@
 import React from 'react';
 import blackImg from '../../../assets/images/black-img.png';
 import ArrowImg from '../../../assets/images/arrowIcon.png';
-import binBigImg from '../../../assets/images/bin-1.png';
+import binBigImg from '../../../assets/images/bin-1.webp';
 function TellStory() {
   return (
     <div className='w-11/12 contentSection flex flex-col gap-5 md:w-10/12 mx-auto '>

@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 // import '../assets/css/style.css'; // Your custom styles
-import binImg from '../../../assets/images/bin-1.png';
+import binImg from '../../../assets/images/bin-1.webp';
 import cardIcons from '../../../assets/images/cardIcons.png';
 import incomeIcon from '../../../assets/images/incomeCardIcon.png';
 import Arrow from '../../../assets/images/arrow.png';

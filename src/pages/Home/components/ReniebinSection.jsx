@@ -7,7 +7,7 @@ import binImg5 from '../../../assets/images/binIcon-5.png';
 import binImg6 from '../../../assets/images/binIcon-6.png';
 import binImg7 from '../../../assets/images/binIcon-7.png';
 import binImg8 from '../../../assets/images/binIcon-8.png';
-import binBigImg from '../../../assets/images/bin-1.png';
+import binBigImg from '../../../assets/images/bin-1.webp';
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';

@@ -25,16 +25,16 @@ function Home() {
       <div className='homeHeroSection'>
         <HeroSection scrollToServiceCard={scrollToServiceCard} />
       </div>
-      {/* <div className='arrowSection flex justify-center md:hidden'>
+      <div className='arrowSection flex justify-center md:hidden'>
         <img className='arrowImg' src={Arrow} alt='' />
-      </div> */}
+      </div>
       <div className='trustedBySection my-5'>
         <TrustedBy />
       </div>
       <div className='aboutSection my-10 pt-10'>
         <About />
       </div>
-      <div className='serviceCardsSection mt-10' ref={serviceCardRef}>
+      <div className='serviceCardsSection my-10' ref={serviceCardRef}>
         <ServiceCards />
       </div>
       <div className='renieBinSection mb-10 py-10 '>
@@ -52,7 +52,7 @@ function Home() {
       <div className='tellStorySection flex justify-center items-center'>
         <TellStory />
       </div>
-      <div className='subcribCardsSection md:mb-10'>
+      <div className='subcribCardsSection mt-10 md:mb-10'>
         <SubscribCards />
       </div>
     </div>

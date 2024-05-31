@@ -1,11 +1,21 @@
 import React from 'react';
 import MobileImg from '../../../assets/images/mobile.png';
+import adsMob from '../../../assets/images/adsMob.png';
 function AdsMatter() {
   return (
     <div className='contentSection w-11/12 md:w-10/12  my-5 items-center flex flex-col md:flex-row-reverse md:gap-10 justify-center md:justify-between  mx-auto '>
       {' '}
       <div className='rewardImageSection'>
-        <img className='adsImg' src={MobileImg} alt='about image' />
+        <img
+          className='adsImg md:block hidden'
+          src={MobileImg}
+          alt='about image'
+        />
+        <img
+          className='adsImg md:hidden block'
+          src={MobileImg}
+          alt='about image'
+        />
       </div>
       <div className='w-10/12  md:w-6/12  p-4 flex flex-col justify-center gap-5 '>
         <div className='aboutTitleSection text-center md:text-left'>

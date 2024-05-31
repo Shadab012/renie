@@ -390,6 +390,11 @@
   line-height: 27px;
   color: black;
 }
+.imageTitle {
+  width: 100% !important;
+  min-width: 80%;
+  max-width: 80%;
+}
 .imageTitleText {
   font-size: 45px;
   line-height: 45px;
@@ -554,7 +559,7 @@
   /* end */
   /* RenieHub */
   .renieHubSection {
-    height: 985px !important;
+    height: 800px !important;
   }
   /* End */
   /* adsMatterSection */
@@ -664,6 +669,7 @@
     font-weight: 900;
   }
   .imageTitleTime {
+    width: 90% !important;
     font-size: 45px;
     line-height: 45px;
     font-weight: 900;
