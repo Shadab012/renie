@@ -29,7 +29,7 @@ function CardSection() {
         </span>{' '}
       </div>
       <div className='cardsSection w-10/12 mx-auto hidden md:flex justify-between gap-5 my-5'>
-        <div className='cardItem flex flex-col justify-center items-center rounded-lg gap-5 p-5'>
+        <div className='cardItem dataExtractionCard flex flex-col justify-center items-center rounded-lg gap-5 p-5'>
           <span className='cardTitle font-semibold gradient-text'>
             Data extraction
           </span>
@@ -44,7 +44,7 @@ function CardSection() {
           </p>
         </div>
 
-        <div className='cardItem flex flex-col justify-center items-center gap-5 p-5'>
+        <div className='cardItem dataMonitizationCard flex flex-col justify-center items-center gap-5 p-5'>
           <span className='cardTitle font-semibold gradient-text'>
             Data monetization
           </span>
@@ -61,7 +61,7 @@ function CardSection() {
           </p>
         </div>
 
-        <div className='cardItem flex flex-col justify-center items-center gap-10 p-5'>
+        <div className='cardItem incomeCard flex flex-col justify-center items-center gap-10 p-5'>
           <span className='cardTitle font-semibold gradient-text'>Income</span>
           <img className='incomeCardImg my-10' src={incomeIcon} alt='Income' />
           <p className='cardPeragraph px-5'>

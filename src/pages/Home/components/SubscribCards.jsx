@@ -4,18 +4,18 @@ import cardImg from '../../../assets/images/bin-1.png';
 import StandardImg from '../../../assets/images/standardFeature.png';
 function SubscribCards() {
   return (
-    <div className=' w-10/12 contentSection flex  gap-10 items-center md:items-end flex-col md:flex-row  justify-center md:justify-between  mx-auto '>
-      <div className='subscribImageSection flex flex-col gap-5 justify-center items-center h-full'>
-        <div className='imageTitle flex flex-col justify-center w-full'>
-          <span className='imageTitleText gradient-text'>
+    <div className=' w-10/12 contentSection flex  items-center md:items-end flex-col md:flex-row  justify-center md:justify-around  mx-auto '>
+      <div className='subscribImageSection md:w-3/12 flex  flex-col gap-5 justify-start md:items-end h-full'>
+        <div className='imageTitle flex flex-col justify-center items-center w-full md:w-11/12'>
+          <span className='imageTitleText gradient-text md:w-full'>
             Get your <br /> Renie Bin
           </span>
           <br />
-          <span className='imageTitleTime '>Today</span>
+          <span className='imageTitleTime md:w-full'>Today</span>
         </div>
         <img className='subscribImg' src={cardImg} alt='' />
       </div>
-      <div className='subscribCardsSection flex md:flex-row flex-col md:items-end'>
+      <div className='subscribCardsSection md:8/12 flex md:flex-row justify-end flex-col md:items-end'>
         <div className='standardCard  flex flex-col justify-center items-start px-10 md:mb-0 mb-5'>
           <span className='cardTitle gradient-text font-semibold'>
             Renie Bin Standard

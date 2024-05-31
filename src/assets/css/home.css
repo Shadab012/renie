@@ -135,7 +135,6 @@
   position: relative;
   height: 578px;
   width: 390px;
-  background-image: url('../images/card-bg.png');
   background-size: contain;
   background-repeat: round;
   border-radius: 20px; /* Adjust as needed */
@@ -143,6 +142,7 @@
   padding: 10px; /* Adjust as needed */
   background-clip: padding-box; /* This ensures the padding is within the rounded border */
 }
+
 .cardItem::before {
   content: '';
   position: absolute;
@@ -154,6 +154,15 @@
   padding: 10px; /* Adjust as needed */
   background: linear-gradient(90deg, #4765e6, #5c4099, #e31662);
   z-index: -1;
+}
+.dataExtractionCard {
+  background-image: url('../images/card-bg.png') !important;
+}
+.dataMonitizationCard {
+  background-image: url('../images/datamonitize.png') !important;
+}
+.incomeCard {
+  background-image: url('../images/income-bg.png') !important;
 }
 .cardTitle {
   font-size: 25px;
@@ -284,6 +293,10 @@
   font-size: 35px;
   line-height: 35px;
 }
+.tellImagesSection {
+  justify-content: center;
+  column-gap: 5%;
+}
 .blackBottle {
   width: 284px;
   height: 409px;
@@ -293,8 +306,8 @@
   height: 422px;
 }
 .horizentalArrow {
-  /* width: 418.82px;
-  height: 159.48px; */
+  width: auto !important;
+  height: auto !important;
 }
 .redLink {
   font-size: 15px;
@@ -318,38 +331,38 @@
   height: 421.79px; */
 }
 .standardCard {
-  width: 300px;
-  height: 480px;
+  width: 448px !important;
+  height: 510px !important;
   border-radius: 20px;
   background-image: url('../images/standard-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .standardCard:hover {
-  width: 400px;
-  height: 582px;
+  width: 448px !important;
+  height: 582px !important;
   background-image: url('../images/card-bg.png');
   background-repeat: round;
   background-size: cover;
 }
 .customCard {
-  width: 300px;
-  height: 480px;
+  width: 448px !important;
+  height: 510px !important;
   background-image: url('../images/custom-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   /* border-radius: 20px; */
 }
 .customCard:hover {
-  width: 400px;
-  height: 582px;
+  width: 448px !important;
+  height: 582px !important;
   background-image: url('../images/customHover-bg.png');
   background-repeat: round;
   background-size: cover;
 }
 .mostPopularLabel {
   position: absolute !important;
-  top: -7%;
+  top: -9%;
   right: 6%;
   border: 1px solid black;
   width: 205px;
@@ -494,8 +507,6 @@
     position: relative;
     height: 578px !important;
     width: 300px !important;
-    background-image: url('../images/card-bg.png');
-    background-repeat: round !important;
     border-radius: 20px;
     overflow: hidden;
     padding: 10px !important;
@@ -594,8 +605,8 @@
     width: 230.9px;
   }
   .horizentalArrow {
-    /* width: 123.5px;
-    height: 51.48px; */
+    width: 123.5px !important;
+    height: 51.48px !important;
     transform: rotate(75deg);
   }
   /* End */

@@ -13,7 +13,7 @@ function TellStory() {
             Our bin is your brand’s canvas
           </span>
         </div>
-        <div className='tellImagesSection relative flex md:flex-row flex-col justify-around items-center  w-full '>
+        <div className='tellImagesSection relative flex md:flex-row flex-col justify-center items-center  w-full '>
           <div className='blackImage md:w-auto w-11/12 '>
             <img className='blackBottle' src={blackImg} alt='' />
           </div>
