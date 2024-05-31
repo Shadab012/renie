@@ -11,11 +11,7 @@ function AdsMatter() {
           src={MobileImg}
           alt='about image'
         />
-        <img
-          className='adsImg md:hidden block'
-          src={MobileImg}
-          alt='about image'
-        />
+        <img className=' md:hidden block' src={adsMob} alt='about image' />
       </div>
       <div className='w-10/12  md:w-6/12  p-4 flex flex-col justify-center gap-5 '>
         <div className='aboutTitleSection text-center md:text-left'>
