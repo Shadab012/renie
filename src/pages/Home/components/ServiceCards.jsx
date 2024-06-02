@@ -18,7 +18,7 @@ function CardSection() {
   };
 
   return (
-    <div className='contentSection mx-auto'>
+    <div className='contentSection mx-auto' >
       {/* <div className='arrowSection justify-center  hidden sm:flex'>
         <img className='arrowImg' src={Arrow} alt='' />
       </div> */}

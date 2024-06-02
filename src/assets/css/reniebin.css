@@ -10,15 +10,23 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+.bg-shaded {
+  background: linear-gradient(
+    90deg,
+    #4765e6 33.33%,
+    #5c4099 66.66%,
+    #e31662 100%
+  );
+}
 /* Hero section Start */
 .binHeroSection {
   width: 100%;
-  height: 810px;
-  background: url('../images/reniebinHero-bg.png');
+  height: auto;
+  background: url("../images/reniebinHero-bg.png");
   background-repeat: no-repeat;
-  background-size: contain !important;
+  /* background-size: contain !important; */
   background-position-y: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .heroImg {
   height: 588px;
@@ -51,7 +59,6 @@
   width: 41.19px;
   height: 131.79px;
 }
-
 .heroButton {
   background: linear-gradient(
     90deg,
@@ -102,13 +109,13 @@
 }
 
 .serviceCardsSection::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../images/serviceBg.png');
+  background-image: url("../images/serviceBg.png");
   background-size: cover;
   background-position: center;
   opacity: 0.2; /* Set the desired opacity here */
@@ -133,7 +140,7 @@
   position: relative;
   height: 578px;
   width: 390px;
-  background-image: url('../images/card-bg.png');
+  background-image: url("../images/card-bg.png");
   background-size: contain;
   background-repeat: round;
   border-radius: 20px; /* Adjust as needed */
@@ -142,7 +149,7 @@
   background-clip: padding-box; /* This ensures the padding is within the rounded border */
 }
 .cardItem::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -195,7 +202,7 @@
   color: #ff0e64;
 }
 .dataSection {
-  background-image: url('../images/renie-bg.png');
+  background-image: url("../images/renie-bg.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -232,7 +239,7 @@
 /* RenieRewards Section */
 .renieRewardSection {
   height: 487px;
-  background-image: url('../images/reward-bg.png');
+  background-image: url("../images/reward-bg.png");
   /* border: 1px solid black; */
 }
 .rewardImg {
@@ -255,7 +262,7 @@
 /* adsMatterSection */
 .adsMatterSection {
   height: 656px;
-  background-image: url('../images/reward-bg.png');
+  background-image: url("../images/reward-bg.png");
 }
 .adsTitleText {
   font-size: 45px;
@@ -313,7 +320,7 @@
   width: 292.54px;
   height: 421.79px;
 }
-.standardCard {
+/* .standardCard {
   width: 300px;
   height: 480px;
   border-radius: 20px;
@@ -327,14 +334,13 @@
   background-image: url('../images/card-bg.png');
   background-repeat: round;
   background-size: cover;
-}
-.customCard {
+} */
+/* .customCard {
   width: 300px;
   height: 480px;
   background-image: url('../images/custom-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
-  /* border-radius: 20px; */
 }
 .customCard:hover {
   width: 400px;
@@ -342,7 +348,7 @@
   background-image: url('../images/customHover-bg.png');
   background-repeat: round;
   background-size: cover;
-}
+} */
 .cardTitle {
   font-size: 22px;
   line-height: 27px;
@@ -374,6 +380,13 @@
   color: #e31662;
 }
 
+.top-gradient {
+  background-image: url("../images/topGradient-bg.png");
+  background-repeat: no-repeat;
+}
+.data-monetization-main {
+  background-image: url("../images/digital-bg.webp");
+}
 /* End */
 
 /* Medai Queries for responsive design */
@@ -381,7 +394,7 @@
   .heroSection {
     width: 100%;
     height: 579px;
-    background: url('../images/home-hero-mobile.png');
+    background: url("../images/home-hero-mobile.png");
     background-repeat: no-repeat;
     background-size: cover !important;
   }
@@ -458,8 +471,8 @@
     margin: 10px auto;
     position: relative;
     height: 578px !important;
-    width: 300px !important;
-    background-image: url('../images/card-bg.png');
+    width: 85vw !important;
+    background-image: url("../images/card-bg.png");
     background-repeat: round !important;
     border-radius: 20px;
     overflow: hidden;
@@ -472,19 +485,20 @@
   }
   .cardIconImg {
     height: 100%;
-    width: 100%;
+    width: 239px;
+    /* width: 100%; */
   }
   /* end */
   /* RenieBin */
   .dataSection {
     background: none;
   }
-  .renieCenter {
-    background-image: url('../images/renie-bg.png');
+  /* .renieCenter {
+    background-image: url("../images/renie-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  }
+  } */
   .renieCenteredImg {
     width: 242.49px;
     height: 350.75px;
@@ -502,7 +516,7 @@
     height: 251px;
   }
   .rewardTitleMain {
-    font-size: 25px;
+    font-size: 45px;
     line-height: 35px;
   }
   /* end */
@@ -563,7 +577,7 @@
   .subcribCardsSection {
     height: 1806px;
   }
-  .standardCard {
+  /* .standardCard {
     width: 300px !important;
     height: 570px;
     border-radius: 20px;
@@ -576,8 +590,8 @@
     height: 570px;
     background-image: url('../images/standard-bg.png');
     background-size: cover;
-  }
-  .customCard {
+  } */
+  /* .customCard {
     width: 300px !important;
     height: 570px;
     background-image: url('../images/customMobile-bg.png');
@@ -590,7 +604,7 @@
     background-size: cover;
     width: 300px !important;
     height: 570px;
-  }
+  } */
   .imageTitle {
     width: auto !important;
   }

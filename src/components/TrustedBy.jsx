@@ -1,13 +1,13 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import '../assets/css/style.css'; // Your custom styles
-import trustImg1 from '../assets/images/trust-1.png';
-import trustImg2 from '../assets/images/trust-2.png';
-import trustImg3 from '../assets/images/trust-3.png';
-import trustImg4 from '../assets/images/trust-4.png';
-import trustImg5 from '../assets/images/trust-5.png';
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../assets/css/style.css"; // Your custom styles
+import trustImg1 from "../assets/images/trust-1.png";
+import trustImg2 from "../assets/images/trust-2.png";
+import trustImg3 from "../assets/images/trust-3.png";
+import trustImg4 from "../assets/images/trust-4.png";
+import trustImg5 from "../assets/images/trust-5.png";
 
 function TrustedBy() {
   const settings = {
@@ -18,25 +18,25 @@ function TrustedBy() {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1340,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 1200,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 580,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -48,34 +48,34 @@ function TrustedBy() {
   };
 
   return (
-    <div className='trustMain contentSection w-10/12 flex flex-col gap-10  mx-auto mb-10'>
-      <div className='trustTitle flex justify-center'>
-        <span className='trustTitleText gradient-text'>TrustedBy</span>
+    <div className="trustMain contentSection w-10/12 flex flex-col gap-10  mx-auto mb-10">
+      <div className="trustTitle flex justify-center">
+        <span className="trustTitleText gradient-text">TrustedBy</span>
       </div>
       <Slider {...settings}>
-        <div className='item '>
-          <div className='trustItem'>
-            <img className='trustItem1' src={trustImg1} alt='Trust 1' />
+        <div className="item ">
+          <div className="trustItem">
+            <img className="trustItem1" src={trustImg1} alt="Trust 1" />
           </div>
         </div>
-        <div className='item'>
-          <div className='trustItem'>
-            <img className='trustItem1' src={trustImg2} alt='Trust 1' />
+        <div className="item">
+          <div className="trustItem">
+            <img className="trustItem1" src={trustImg2} alt="Trust 1" />
           </div>
         </div>
-        <div className='item'>
-          <div className='trustItem'>
-            <img className='trustItem1' src={trustImg3} alt='Trust 1' />
+        <div className="item">
+          <div className="trustItem">
+            <img className="trustItem1" src={trustImg3} alt="Trust 1" />
           </div>
         </div>
-        <div className='item'>
-          <div className='trustItem'>
-            <img className='trustItem1' src={trustImg4} alt='Trust 1' />
+        <div className="item">
+          <div className="trustItem">
+            <img className="trustItem1" src={trustImg4} alt="Trust 1" />
           </div>
         </div>
-        <div className='item'>
-          <div className='trustItem'>
-            <img className='trustItem1' src={trustImg5} alt='Trust 1' />
+        <div className="item">
+          <div className="trustItem">
+            <img className="trustItem1" src={trustImg5} alt="Trust 1" />
           </div>
         </div>
 

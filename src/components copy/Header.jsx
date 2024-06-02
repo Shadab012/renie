@@ -7,51 +7,36 @@ const Header = () => {
 
   return (
     <header className=" bg-white shadow-md border md:py-3   ">
-      <div className=" contentSection mx-auto px-4 sm:px-6 lg:px-8 cmd:w-10/12">
-        <div className="flex justify-between items-center gap-2.5 h-16">
+      <div className=" contentSection mx-auto px-4 sm:px-6 lg:px-8 md:w-10/12">
+        <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 headerLogo">
             <Link to="/">
               <img className="" src={logoSVG} alt="Logo" />
             </Link>
           </div>
-          <div className="hidden cmd:flex md:justify-center gap-2 lg:gap-3 cmxl:gap-4 cxl:gap-5 space-x-4">
-            <Link
-              to="/reniebin"
-              className="text-[13px] lg:text-[15px] cmxl:text-[18px] cxl:text-xl text-[#000000] whitespace-pre "
-            >
+          <div className="hidden md:flex md:justify-center gap-5 space-x-4">
+            <Link to="/reniebin" className="linkItem">
               Renie Bin
             </Link>
-            <Link
-              to="/reniehub"
-              className="text-[13px] lg:text-[15px] cmxl:text-[18px] cxl:text-xl text-[#000000] whitespace-pre "
-            >
+            <a href="#" className="linkItem">
               Renie Hub
-            </Link>
-            <a
-              href="#"
-              className="text-[13px] lg:text-[15px] cmxl:text-[18px] cxl:text-xl text-[#000000] whitespace-pre "
-            >
+            </a>
+            <a href="#" className="linkItem">
               Renie App
             </a>
-            <a
-              href="#"
-              className="text-[13px] lg:text-[15px] cmxl:text-[18px] cxl:text-xl text-[#000000] whitespace-pre "
-            >
+            <a href="#" className="linkItem">
               Ads that matter
             </a>
-            <a
-              href="#"
-              className="text-[13px] lg:text-[15px] cmxl:text-[18px] cxl:text-xl text-[#000000] whitespace-pre "
-            >
+            <a href="#" className="linkItem">
               Media Hub
             </a>
           </div>
-          <div className="hidden cmd:block">
-            <button className=" headerButton text-white text-[13px] lg:text-[15px] cmxl:text-[18px] cxl:text-xl whitespace-pre ">
+          <div className="hidden md:block">
+            <button className=" headerButton text-white ">
               Connect with an expert
             </button>
           </div>
-          <div className="-mr-2 flex cmd:hidden">
+          <div className="-mr-2 flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
@@ -84,7 +69,7 @@ const Header = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="cmd:hidden">
+        <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
               href="#"

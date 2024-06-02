@@ -9,8 +9,8 @@ import instagramIcon from "../assets/images/instagram.png";
 function Footer() {
   return (
     <footer className="footer flex flex-col justify-center items-center p-3 md:p-0 gap-2 md:gap-5">
-      <div className="flex flex-col cmd:flex-row justify-evenly items-center gap-5 my-6">
-        <div className="LogoSection flex flex-col items-center cmd:items-start w-11/12 cmd:w-5/12">
+      <div className="flex flex-col lg:flex-row justify-evenly items-center gap-5 mb-5">
+        <div className="LogoSection flex flex-col items-center md:items-start w-11/12 md:w-5/12">
           <Link to="/" className="footerLogo w-auto flex items-center">
             <img src={logoSVG} alt="Logo" />
           </Link>
@@ -26,7 +26,7 @@ function Footer() {
           </div>
         </div>
         <div
-          className="IconsSection flex flex-col gap-5 justify-center items-center w-11/12 cmd:w-4/12"
+          className="IconsSection flex flex-col gap-5 justify-center items-center w-11/12 md:w-4/12"
           style={{ maxWidth: 446 }}
         >
           <p className="socialTitle gradient-text">Follow our socials!</p>

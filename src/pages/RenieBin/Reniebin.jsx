@@ -1,15 +1,31 @@
-import React from 'react';
-import '../../assets/css/reniebin.css';
-import Arrow from '../../assets/images/arrow.png';
+// import React from "react";
+import "../../assets/css/reniebin.css";
+// import TwoColLeftImg from "../../components/TwoColLeftImg";
+import DemoBin from "./components/DemoBin";
+import HeadlineBin from "./components/HeadlineBin";
 
-import HeroBin from './components/HeroBin';
+import HeroBin from "./components/HeroBin";
+import FeatBin from "./components/FeatBin";
+import StepBin from "./components/StepBin";
+import FullVid from "./components/FullVideo";
+import Scaner from "./components/ScanerBin";
+import DataMonetization from "./components/DataMonetization";
+import HubBin from "./components/HubBin";
 
 function Reniebin() {
   return (
     <div>
-      <div className='binHeroSection flex'>
+      <div className="binHeroSection flex">
         <HeroBin />
       </div>
+      <DemoBin />
+      <HeadlineBin />
+      <FeatBin />
+      <StepBin />
+      <FullVid />
+      <Scaner />
+      <DataMonetization />
+      <HubBin />
       {/* <div className='arrowSection flex justify-center md:hidden'>
         <img className='arrowImg' src={Arrow} alt='' />
       </div> */}

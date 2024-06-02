@@ -51,7 +51,7 @@
 /* Footer Component */
 .footer {
   background: #edf0fc;
-  height: 382px;
+  /* height: 382px; */
   border-top: 10px solid; /* Set the border width */
   border-image: linear-gradient(90deg, #4765e6, #5c4099, #e31662) 1;
 }
@@ -147,8 +147,28 @@
   display: flex;
   align-items: center !important;
 }
-
+.renie-hub-main {
+  background: linear-gradient(
+    224.26deg,
+    #ffffff 72.5%,
+    rgba(71, 101, 230, 0.1) 247.12%
+  );
+}
+.reniehub-trustedby-main {
+  background-image: url("../images/topGradient-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.renie-hub-track-main {
+  background-color: #edf0fd;
+}
+.renie-hub-transparency {
+  background-image: url("../images/buttomGradient-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* Medai Queries for responsive design */
+
 @media screen and (max-width: 768px) {
   /* Header */
   .headerMain {
