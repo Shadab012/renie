@@ -167,8 +167,40 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* Medai Queries for responsive design */
 
+.slick-dots li button::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  opacity: 1;
+  color: transparent;
+  line-height: 7px !important;
+  background-color: transparent;
+}
+
+.slick-dots li.slick-active button::before {
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 7px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(
+    90deg,
+    #4765e6 33.33%,
+    #5c4099 66.66%,
+    #e31662 100%
+  );
+  color: transparent !important;
+}
 @media screen and (max-width: 768px) {
   /* Header */
   .headerMain {

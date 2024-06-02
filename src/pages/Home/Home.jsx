@@ -27,13 +27,16 @@ function Home() {
       <div className="trustedBySection my-5">
         <TrustedBy />
       </div>
-      <div className="aboutSection my-10 pt-10">
-        <About />
-      </div>
-      <div className="serviceCardsSection " ref={serviceCardRef}>
+      {/* <div className="aboutSection my-10 pt-10"> */}
+      <About />
+      {/* </div> */}
+      <div
+        className="serviceCardsSection pt-[40px] cmd:pt-0"
+        ref={serviceCardRef}
+      >
         <ServiceCards />
       </div>
-      <div className="renieBinSection z-[-1] relative mb-10 py-10 ">
+      <div className="mb-10  ">
         <ReniebinSection />
       </div>
       <div className="renieRewardSection flex justify-center items-center mt-10">

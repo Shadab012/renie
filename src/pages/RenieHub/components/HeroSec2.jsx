@@ -1,6 +1,6 @@
 import React from "react";
 import chart from "../../../assets/images/chart.webp";
-
+import swipearrow from "../../../assets/images/swipe-arrow.svg";
 const HeroSec2 = () => {
   const [x, setX] = React.useState(100);
   return (
@@ -23,8 +23,15 @@ const HeroSec2 = () => {
           src={chart}
           alt="chart Hub image"
         />
-        <button onClick={() => setX((prevX) => (prevX > 0 ? prevX - 50 : 100))}>
-          swipe
+        <button
+          className="relative w-[200px] h-[3px]"
+          onClick={() => setX((prevX) => (prevX > 0 ? prevX - 50 : 100))}
+        >
+          <img
+            className="absolute  cmd:hidden w-[15%] top-[-15%] right-[65px]"
+            src={swipearrow}
+            alt="bin"
+          />
         </button>
       </div>
     </div>

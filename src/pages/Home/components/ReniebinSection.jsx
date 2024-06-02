@@ -19,6 +19,8 @@ function ReniebinSection() {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
     appendDots: (dots) => (
       <div style={{ position: "absolute", bottom: "-30px" }}>
         <ul style={{ margin: "0px" }}> {dots} </ul>
@@ -27,21 +29,100 @@ function ReniebinSection() {
   };
 
   return (
-    <div className="renieMain contentSection h-full  w-10/12  mx-auto">
-      <div className="renieTitleSection mb-5 text-center ">
-        <span className="renieTitleText font-bold gradient-text">
-          Renie Bin
-        </span>{" "}
-        <br />
-        <span className="renieSubTitle font-semibold ">
-          The ultimate data extraction machine
-        </span>
+    <>
+      <div className="renieBinSection h-full cmd:h-[899px] z-[-1] relative">
+        <div className="renieMain contentSection h-full  w-10/12  mx-auto">
+          <div className="renieTitleSection mb-5 text-center ">
+            <span className="renieTitleText font-bold gradient-text">
+              Renie Bin
+            </span>{" "}
+            <br />
+            <span className="renieSubTitle font-semibold ">
+              The ultimate data extraction machine
+            </span>
+          </div>
+          <div className="dataSection flex flex-col md:flex-row w-full md:w-10/12 md:h-full justify-center md:justify-between mx-auto ">
+            <div className="binIcons hidden md:flex flex-col justify-start gap-10 h-full mt-5">
+              <div className="iconItem flex flex-col items-center w-full">
+                <img className="iconImg" src={binImg1} alt="icon1" />
+                <span className="iconText">only accepts</span>
+                <span className="iconTitle font-semibold gradient-text">
+                  recyclable waste
+                </span>
+              </div>
+              <div className="iconItem flex flex-col items-center w-full">
+                <img className="iconImg" src={binImg2} alt="icon2" />
+                <span className="iconText">only accepts</span>
+                <span className="iconTitle font-semibold gradient-text">
+                  recyclable waste
+                </span>
+              </div>
+              <div className="iconItem flex flex-col items-center w-full">
+                <img className="iconImg" src={binImg3} alt="icon3" />
+                <span className="iconText">only accepts</span>
+                <span className="iconTitle font-semibold gradient-text">
+                  recyclable waste
+                </span>
+              </div>
+              <div className="iconItem flex flex-col items-center w-full">
+                <img className="iconImg" src={binImg4} alt="icon4" />
+                <span className="iconText">only accepts</span>
+                <span className="iconTitle font-semibold gradient-text">
+                  recyclable waste
+                </span>
+              </div>
+            </div>
+            <div className="renieCenter flex flex-col items-center gap-5 mt-5 relative">
+              <span className="reniebigImgText font-semibold">
+                Learn more {">"}{" "}
+              </span>
+              <img className="renieCenteredImg" src={binBigImg} alt="bin" />
+              <img
+                className="absolute md:hidden w-[85%] top-[-5%] z-[-1]"
+                src={binleafImg}
+                alt="bin"
+              />
+            </div>
+            <div className="binIcons hidden md:flex flex-col justify-start gap-10 h-full mt-5">
+              <div className="iconItem flex flex-col items-center w-full">
+                <img className="iconImg" src={binImg5} alt="icon5" />
+                <span className="iconText">only accepts</span>
+                <span className="iconTitle font-semibold gradient-text">
+                  recyclable waste
+                </span>
+              </div>
+              <div className="iconItem flex flex-col items-center w-full">
+                <img className="iconImg" src={binImg6} alt="icon6" />
+                <span className="iconText">only accepts</span>
+                <span className="iconTitle font-semibold gradient-text">
+                  recyclable waste
+                </span>
+              </div>
+              <div className="iconItem flex flex-col items-center w-full">
+                <img className="iconImg" src={binImg7} alt="icon7" />
+                <span className="iconText">only accepts</span>
+                <span className="iconTitle font-semibold gradient-text">
+                  recyclable waste
+                </span>
+              </div>
+              <div className="iconItem flex flex-col items-center w-full">
+                <img className="iconImg" src={binImg8} alt="icon8" />
+                <span className="iconText">only accepts</span>
+                <span className="iconTitle font-semibold gradient-text">
+                  recyclable waste
+                </span>
+              </div>
+            </div>
+            {/* this will be visible only on mobile */}
+          </div>
+        </div>
       </div>
-      <div className="dataSection flex flex-col md:flex-row w-full md:w-10/12 md:h-full justify-center md:justify-between mx-auto ">
-        <div className="binIcons hidden md:flex flex-col justify-start gap-10 h-full mt-5">
-          <div className="iconItem flex flex-col items-center w-full">
+      <div className="md:hidden overflow-hidden h-[165px] w-full mt-10">
+        <Slider {...settings}>
+          <div className="iconItem flex flex-col items-center justify-center w-full">
             <img className="iconImg" src={binImg1} alt="icon1" />
             <span className="iconText">only accepts</span>
+
             <span className="iconTitle font-semibold gradient-text">
               recyclable waste
             </span>
@@ -67,19 +148,6 @@ function ReniebinSection() {
               recyclable waste
             </span>
           </div>
-        </div>
-        <div className="renieCenter flex flex-col items-center gap-5 mt-5 relative">
-          <span className="reniebigImgText font-semibold">
-            Learn more {">"}{" "}
-          </span>
-          <img className="renieCenteredImg" src={binBigImg} alt="bin" />
-          <img
-            className="absolute md:hidden w-[85%] top-[-5%] z-[-1]"
-            src={binleafImg}
-            alt="bin"
-          />
-        </div>
-        <div className="binIcons hidden md:flex flex-col justify-start gap-10 h-full mt-5">
           <div className="iconItem flex flex-col items-center w-full">
             <img className="iconImg" src={binImg5} alt="icon5" />
             <span className="iconText">only accepts</span>
@@ -108,71 +176,9 @@ function ReniebinSection() {
               recyclable waste
             </span>
           </div>
-        </div>
-        {/* this will be visible only on mobile */}
-        <div className="md:hidden w-full mt-10">
-          <Slider {...settings}>
-            <div className="iconItem flex flex-col items-center justify-center w-full">
-              <img className="iconImg" src={binImg1} alt="icon1" />
-              <span className="iconText">only accepts</span>
-
-              <span className="iconTitle font-semibold gradient-text">
-                recyclable waste
-              </span>
-            </div>
-            <div className="iconItem flex flex-col items-center w-full">
-              <img className="iconImg" src={binImg2} alt="icon2" />
-              <span className="iconText">only accepts</span>
-              <span className="iconTitle font-semibold gradient-text">
-                recyclable waste
-              </span>
-            </div>
-            <div className="iconItem flex flex-col items-center w-full">
-              <img className="iconImg" src={binImg3} alt="icon3" />
-              <span className="iconText">only accepts</span>
-              <span className="iconTitle font-semibold gradient-text">
-                recyclable waste
-              </span>
-            </div>
-            <div className="iconItem flex flex-col items-center w-full">
-              <img className="iconImg" src={binImg4} alt="icon4" />
-              <span className="iconText">only accepts</span>
-              <span className="iconTitle font-semibold gradient-text">
-                recyclable waste
-              </span>
-            </div>
-            <div className="iconItem flex flex-col items-center w-full">
-              <img className="iconImg" src={binImg5} alt="icon5" />
-              <span className="iconText">only accepts</span>
-              <span className="iconTitle font-semibold gradient-text">
-                recyclable waste
-              </span>
-            </div>
-            <div className="iconItem flex flex-col items-center w-full">
-              <img className="iconImg" src={binImg6} alt="icon6" />
-              <span className="iconText">only accepts</span>
-              <span className="iconTitle font-semibold gradient-text">
-                recyclable waste
-              </span>
-            </div>
-            <div className="iconItem flex flex-col items-center w-full">
-              <img className="iconImg" src={binImg7} alt="icon7" />
-              <span className="iconText">only accepts</span>
-              <span className="iconTitle font-semibold gradient-text">
-                recyclable waste
-              </span>
-            </div>
-            <div className="iconItem flex flex-col items-center w-full">
-              <img className="iconImg" src={binImg8} alt="icon8" />
-              <span className="iconText">only accepts</span>
-              <span className="iconTitle font-semibold gradient-text">
-                recyclable waste
-              </span>
-            </div>
-          </Slider>
-        </div>
+        </Slider>
       </div>
-    </div>
+    </>
   );
 }
 
