@@ -1,27 +1,36 @@
-import React from "react";
-import AdMap from "../../../assets/images/ad-map.webp";
+import findnearest from "../../../assets/images/findnearest.webp";
+import google from "../../../assets/images/google.webp";
 
 const HeroApp3 = () => {
   return (
-    <div className="max-w-[1440px] min-h-[70vh] flex justify-center items-center">
-      <div className="w-[660px]">
-        <h2 className="text-[45px] leading-[35px] font-[900] gradient-text">
-          No vouchers, no discounts
-        </h2>
-        <h2 className="text-[45px] leading-[35px] font-[900] gradient-text mt-4">
-          just valuable prizes
-        </h2>
-        <p className="text-[18px] leading-[27px] font-[400] mt-4 mb-8">
-          We go beyond the usual discounts or vouchers for recycling. We believe
-          that these efforts deserve more. That’s why we offer the chance to win
-          truly valuable prizes, like the latest smartphone or a dream vacation,
-          all without hidden costs.
-        </p>
-      </div>
-      <div>
+    <div className=" min-h-[70vh] mx-auto mt-40">
+      <div
+        className=" md:max-h-[588px] flex flex-col-reverse md:flex-row-reverse justify-around items-center mt-6"
+        style={{
+          background:
+            "linear-gradient(90deg, #4765e6 0%, #5c4099 50%, #e31662 100%)",
+        }}
+      >
+        <div className="text-white pb-10 cmd:pb-10 cmd:py-10 cmd:px-6 flex flex-col items-center cmd:items-start text-center cmd:w-[40%]">
+          <h2 className="text-[35px] md:text-[45px] leading-[45px] font-[900] ">
+            Find the closest
+          </h2>
+          <h2 className="text-[35px] md:text-[45px] leading-[45px] font-[900]  mt-4">
+            Renie Bin.
+          </h2>
+          <h2 className="text-[35px] md:text-[45px] leading-[45px] font-[900] mt-4">
+            And navigate to it
+          </h2>
+          <p className="text-[18px] leading-[27px] font-[400] mt-4 mb-8">
+            Work with
+          </p>
+
+          <img className="w-[171px]" src={google} alt="AdMap" />
+        </div>
+
         <img
-          className="w-[213px] relative z-0 top-0 le"
-          src={AdMap}
+          className="translate-y-[-5rem] cmd:translate-y-[0] cmd:translate-x-[40px]"
+          src={findnearest}
           alt="AdMap"
         />
       </div>

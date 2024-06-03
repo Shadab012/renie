@@ -3,19 +3,19 @@ import adsMob from "../../../assets/images/adsMob.png";
 
 const HeroApp6 = () => {
   return (
-    <div>
+    <div className=" max-h-[1440px] cmd:mb-24 mt-[80px] cmd:mt-0">
       <div
-        className="min-h-[256px] flex justify-around items-center text-white"
+        className=" md:h-[588px]  flex flex-col-reverse md:flex-row justify-evenly items-center text-white"
         style={{
           background:
             "linear-gradient(90deg, #4765e6 0%, #5c4099 50%, #e31662 100%)",
         }}
       >
-        <div className="w-[660px]">
-          <h2 className="text-[45px] leading-[45px] font-[900] text-white mb-4">
+        <div className="w-[325px] md:w-[660px] text-center md:text-left mb-8 cmd:my-8">
+          <h2 className="text-[35px] md:text-[45px] leading-[45px] font-[900] text-white mb-4">
             Ads that matter
           </h2>
-          <h3 className="text-[35px] leading-[40px] font-[600] text-white mb-4">
+          <h3 className="text-[25px] md:text-[35px] leading-[30px] md:leading-[40px] font-[600] text-white mb-2">
             The connection interface changes according to the user’s
             preferences.
           </h3>
@@ -25,16 +25,14 @@ const HeroApp6 = () => {
             app user.
           </span>{" "}
           <br />
-          <button className="heroButton ">Learn more</button>
+          <button className="heroButton my-4 ">Learn more</button>
         </div>
 
-        <div>
-          <img
-            className="w-[213px] relative z-0 top-0 le"
-            src={adsMob}
-            alt="AdMap"
-          />
-        </div>
+        <img
+          className="w-[372px] h-[762.8px]  translate-y-[-6rem] md:translate-y-0 cmd:translate-x-[-3rem]"
+          src={adsMob}
+          alt="AdMap"
+        />
       </div>
     </div>
   );

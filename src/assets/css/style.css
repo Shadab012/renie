@@ -182,7 +182,11 @@
   background-repeat: repeat;
   background-size: contain;
 }
-
+.renie-app-transparency {
+  background-image: url("../images/buttomGradient-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .slick-dots li button::before {
   content: "";
   width: 6px;
