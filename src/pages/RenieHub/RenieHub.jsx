@@ -7,9 +7,9 @@ import HeroSec5 from "./components/HeroSec5";
 
 const RenieHub = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <HeroHub />
-      <div className="reniehub-trustedby-main">
+      <div className="reniehub-trustedby-main pt-[100px] pb-4">
         <TrustedBy />
       </div>
 

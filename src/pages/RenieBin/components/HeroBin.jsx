@@ -39,7 +39,7 @@ function HeroBin() {
     <div className="w-11/12 md:w-10/12 max-w-[1440px] lg:px-8 mb-14 md:mb-0 mt-14 items-center md:items-start flex flex-col-reverse md:flex-row md:gap-5 justify-center md:justify-between  mx-auto ">
       {" "}
       <div className="w-full  md:w-6/12 flex flex-col justify-between gap-16">
-        <div className="pt-16 flex flex-col justify-start gap-5 h-3/5 ">
+        <div className="cmd:pt-16 flex flex-col justify-start gap-5 h-3/5 ">
           <div className="aboutTitleSection text-center md:text-left">
             <span className=" font-bold text-[#E31662] text-[35px] md:text-[45px]">
               Your waste
@@ -69,11 +69,7 @@ function HeroBin() {
         {/* End */}
       </div>
       <div className="rewardImageSection w-10/12  md:w-6/12">
-        <img
-          className="h-[350px] md:h-[588px]"
-          src={HeroImg}
-          alt="about image"
-        />
+        <img className=" md:h-[588px]" src={HeroImg} alt="about image" />
       </div>
     </div>
   );

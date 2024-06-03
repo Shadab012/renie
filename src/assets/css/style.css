@@ -154,6 +154,21 @@
     rgba(71, 101, 230, 0.1) 247.12%
   );
 }
+
+.binhub-hero-bg {
+  background: url("../images/renie-hub-hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position-y: center; */
+  /* border: 1px solid black; */
+}
+
+.reniehub-track-earning {
+  background-image: url("../images/topGradient-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .reniehub-trustedby-main {
   background-image: url("../images/topGradient-bg.png");
   background-repeat: no-repeat;
@@ -164,8 +179,8 @@
 }
 .renie-hub-transparency {
   background-image: url("../images/buttomGradient-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 .slick-dots li button::before {
@@ -201,7 +216,18 @@
   );
   color: transparent !important;
 }
+
+@media screen and (max-width: 920px) {
+  .renie-hub-transparency {
+    background-image: url("../images/buttomGradient-bg.png");
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+}
 @media screen and (max-width: 768px) {
+  .slick-dots {
+    bottom: -45px !important;
+  }
   /* Header */
   .headerMain {
     height: 54px;

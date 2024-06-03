@@ -11,7 +11,9 @@ function SubscribCards() {
             Get your <br /> Renie Bin
           </span>
           <br />
-          <span className="imageTitleTime cmd:w-full">Today</span>
+          <span className="imageTitleTime cmd:w-full text-center cmd:text-left">
+            Today
+          </span>
         </div>
         <img
           className="subscribImg cmd:h-[370px] lg:h-[404px]"

@@ -6,7 +6,7 @@ import { Circle } from "./HeroBin";
 
 const DemoBin = () => {
   return (
-    <div className="flex flex-col py-16 gap-2.5 items-center relative">
+    <div className="reniebin-demo cmd:mt-[2px] flex flex-col py-16 gap-2.5 items-center relative">
       <header className="flex flex-col items-center">
         <span className="gradient-text leading-[45px] text-[35px] md:text-[45px] font-black">
           Renie Bin

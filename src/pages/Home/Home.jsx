@@ -24,7 +24,7 @@ function Home() {
   return (
     <div>
       <HeroSection scrollToServiceCard={scrollToServiceCard} />
-      <div className="trustedBySection my-5">
+      <div className="trustedBySection my-8 cmd:my-12">
         <TrustedBy />
       </div>
       {/* <div className="aboutSection my-10 pt-10"> */}
@@ -39,10 +39,10 @@ function Home() {
       <div className="mb-10  ">
         <ReniebinSection />
       </div>
-      <div className="renieRewardSection flex justify-center items-center mt-10">
+      <div className="renieRewardSection h-full flex justify-center items-center mt-10">
         <RenieRewardSection />
       </div>
-      <div className="renieHubSection flex justify-center items-center ">
+      <div className="renieHubSection flex justify-center items-center !h-[640px] cmd:h-[750px]">
         <Hub
           top="title"
           title="Renie Hub"
@@ -57,7 +57,7 @@ overview of data driven income."
       <div className="tellStorySection flex justify-center items-center">
         <TellStory />
       </div>
-      <div className="subcribCardsSection mt-10 md:mb-10">
+      <div className="subcribCardsSection mt-10 md:mb-20">
         <SubscribCards />
       </div>
     </div>

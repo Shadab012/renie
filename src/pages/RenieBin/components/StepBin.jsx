@@ -7,29 +7,29 @@ const StepBin = () => {
     <div>
       <TwoColLeftImg bgColor="#4765E61A" url={step1}>
         <div>
-          <span className="gradient-text font-black text-[45px] leading-[45px] block cmd:inline text-center">
+          <span className="gradient-text font-black text-[35px] cmd:text-[45px] leading-[45px] block cmd:inline text-center">
             Barcode or Photo
           </span>
-          <br />
+          <br className="hidden cmd:block" />
 
-          <span className="gradient-text font-black text-[45px] leading-[45px]">
+          <span className="gradient-text font-black text-[35px] cmd:text-[45px] leading-[45px] block cmd:inline text-center">
             enabled opening only
           </span>
-          <p className="my-3">
+          <p className="my-3 text-center cmd:text-left">
             Renie bins only open for plastic and other Pre-approved materials
           </p>
         </div>
       </TwoColLeftImg>
-      <div className="py-[60px] flex justify-center ">
-        <div className="max-w-[1440px] w-full lg:w-10/12 flex flex-col-reverse cmd:flex-row justify-center ">
-          <div className="w-full cmd:w-[60%] flex justify-center cmd:justify-normal px-5 cmd:px-0 items-center">
+      <div className="py-[60px] px-[40px] cmd:px-0 flex justify-center ">
+        <div className="max-w-[1440px] w-full lg:w-10/12 flex flex-col-reverse cmd:flex-row justify-center gap-[60px]">
+          <div className="w-full cmd:w-[60%] flex justify-center cmd:justify-normal cmd:px-0 items-center">
             <div>
-              <span className="gradient-text font-black text-[45px] leading-[45px] block cmd:inline text-center">
+              <span className="gradient-text font-black text-[35px] cmd:text-[45px] leading-[45px] block cmd:inline text-center">
                 Web-based application,
               </span>
-              <br />
+              <br className="hidden cmd:block" />
 
-              <span className="gradient-text font-black text-[45px] leading-[45px] block cmd:inline text-center">
+              <span className="gradient-text font-black text-[35px] cmd:text-[45px] leading-[45px] block cmd:inline text-center">
                 no download needed
               </span>
               <p className="my-3 text-center cmd:text-left">
@@ -49,14 +49,14 @@ const StepBin = () => {
       </div>
 
       <TwoColLeftImg bgColor="#4765E61A" url={step3}>
-        <div>
-          <span className="gradient-text font-black text-[45px] leading-[45px] block cmd:inline text-center">
+        <div className="cmd:px-5">
+          <span className="gradient-text font-black text-[35px] cmd:text-[45px] leading-[45px] block cmd:inline text-center">
             No Barcode?
             <br />
             Take a picture of the item!
           </span>
           <br />
-          <br />
+          <br className="hidden cmd:block" />
           <span className="gradient-text font-semibold text-[35px] leading-[35px] block cmd:inline text-center">
             Ultra fast waste verification process
           </span>

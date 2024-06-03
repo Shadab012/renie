@@ -6,8 +6,8 @@ const HeroSec2 = () => {
   return (
     <div className="max-w-[1440px] mx-auto mt-20  text-center">
       <p className="text-[25px] cmd:text-[36px] leading-[45px] font-[600] gradient-text ">
-        How is waste transformed into income while <br /> measuring the
-        environmental impact?
+        How is waste transformed into income while{" "}
+        <br className="hidden cmd:block" /> measuring the environmental impact?
       </p>
       <div className="my-40 hidden cmd:block overflow-hidden">
         <img
@@ -16,15 +16,15 @@ const HeroSec2 = () => {
           alt="chart Hub image"
         />
       </div>
-      <div className="my-10 cmd:my-40 cmd:hidden overflow-hidden">
+      <div className="my-10 cmd:my-40 cmd:hidden overflow-hidden h-[160px]">
         <img
           style={{ transform: `translate(${x}px` }}
-          className=" w-[1200px] h-[260px] mx-auto "
+          className=" w-[1200px] mx-auto "
           src={chart}
           alt="chart Hub image"
         />
         <button
-          className="relative w-[200px] h-[3px]"
+          className="relative w-[200px] "
           onClick={() => setX((prevX) => (prevX > 0 ? prevX - 50 : 100))}
         >
           <img

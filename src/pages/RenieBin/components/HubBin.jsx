@@ -4,7 +4,7 @@ import SubscribCards from "../../Home/components/SubscribCards";
 
 const HubBin = () => {
   return (
-    <div className="top-gradient mb-14">
+    <div className="top-gradient mb-14 flex flex-col gap-[60px] pt-[150px] pb-[70px]">
       <Hub
         top="subTitle"
         title="Renie Hub"

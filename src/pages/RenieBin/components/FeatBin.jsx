@@ -23,14 +23,14 @@ const FeatBin = () => {
             </span>{" "}
           </div>
         </div>
-        <div className="w-full cmd:w-[40%] flex justify-center gap-5">
+        <div className="w-full cmd:w-[40%] flex justify-center gap-5 px-[40px] cmd:px-0">
           <div className="flex flex-col justify-around">
             <img src={ricon1} alt="icon" />
             <img src={ricon2} alt="icon" />
             <img src={ricon3} alt="icon" />
           </div>
           <div>
-            <img className="h-[440px]" src={renieBgImg} alt="renieBgImg" />
+            <img className=" cmd:h-[440px]" src={renieBgImg} alt="renieBgImg" />
           </div>
         </div>
       </div>

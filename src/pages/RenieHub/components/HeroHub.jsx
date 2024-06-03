@@ -5,8 +5,8 @@ import circleTwo from "../../../assets/images/round-1.png";
 
 const HeroBinHub = () => {
   return (
-    <div className="renie-hub-main relative z-[-1]">
-      <div className="max-w-[1440px] cmd:w-10/12 h-[810px] cmd:min-h-[660px] px-4 sm:px-6 lg:px-8 flex justify-center flex-col cmd:flex-row items-center gap-4 mx-auto">
+    <div className="renie-hub-main binhub-hero-bg relative z-[-1]">
+      <div className="max-w-[1440px] cmd:w-10/12 h-[740px] cmd:h-[810px] cmd:min-h-[660px] px-6 lg:px-8 flex justify-center flex-col cmd:flex-row items-center gap-8 cmd:gap-4 mx-auto">
         <div className="w-full cmd:w-[50%] flex justify-center cmd:justify-end relative">
           <img
             className=" w-[50px] cmd:w-[170px] lg:w-[200px] xl:w-[200px] cxl:w-[288px] 2xl:w-[330px]  absolute z-[-1] top-[-22%] left-[2%] "
@@ -17,7 +17,7 @@ const HeroBinHub = () => {
         </div>
         <div className="w-full cmd:w-[50%] relative">
           <div>
-            <h2 className="text-[45px] leading-[45px] font-[900] gradient-text text-center cmd:text-left">
+            <h2 className="text-[35px] cmd:text-[45px] leading-[45px] font-[900] gradient-text text-center cmd:text-left">
               Earn income while you make a traceable impact
             </h2>
             <p className="text-[18px] leading-[27px] font-[400] mt-6 text-center cmd:text-left">

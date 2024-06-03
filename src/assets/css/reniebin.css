@@ -24,7 +24,7 @@
   height: auto;
   background: url("../images/reniebinHero-bg.png");
   background-repeat: no-repeat;
-  /* background-size: contain !important; */
+  background-size: cover;
   background-position-y: center;
   /* border: 1px solid black; */
 }
@@ -121,7 +121,10 @@
   opacity: 0.2; /* Set the desired opacity here */
   z-index: -1; /* Ensure the pseudo-element is behind the content */
 }
-
+.reniebin-demo {
+  background-image: url("../images/top-left-gred.png");
+  background-size: cover;
+}
 .serviceTitleText {
   font-size: 35px;
   line-height: 45px;
@@ -383,6 +386,7 @@
 .top-gradient {
   background-image: url("../images/topGradient-bg.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .data-monetization-main {
   background-image: url("../images/digital-bg.webp");
@@ -575,7 +579,7 @@
   /* End */
   /* SubscribCard Start */
   .subcribCardsSection {
-    height: 1806px;
+    height: 1860px;
   }
   /* .standardCard {
     width: 300px !important;

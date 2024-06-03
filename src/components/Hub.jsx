@@ -7,25 +7,25 @@ function Hub({ top, title, subTitle, desc }) {
       <div className="rewardImageSection">
         <img className="rewardImg" src={HubImg} alt="about image" />
       </div>
-      <div className="w-10/12  md:w-6/12  p-4 flex flex-col justify-center gap-5 ">
+      <div className=" md:w-6/12  p-4 flex flex-col justify-center gap-5 ">
         <div className="aboutTitleSection text-center md:text-left">
           {top == "title" ? (
             <>
-              <span className="renieTitleText font-bold gradient-text">
+              <span className="renieTitleText font-bold gradient-text text-[35px] cmd:text-[45px]">
                 {title}
               </span>{" "}
               <br />
-              <span className="rewardTitleMain font-semibold gradient-text">
+              <span className="rewardTitleMain font-semibold gradient-text text-[25px] cmd:text-[35px]">
                 {subTitle}
               </span>
             </>
           ) : (
             <>
-              <span className="rewardTitleMain font-semibold gradient-text">
+              <span className="rewardTitleMain font-semibold gradient-text text-[25px] cmd:text-[35px]">
                 {subTitle}
               </span>
               <br />
-              <span className="renieTitleText font-bold gradient-text">
+              <span className="renieTitleText font-bold gradient-text text-[35px] cmd:text-[45px]">
                 {title}
               </span>{" "}
             </>

@@ -1,9 +1,9 @@
 const DataMonetization = () => {
   return (
     <div className="data-monetization-main h-[583px] flex justify-center items-center">
-      <div className="max-w-[1440px] w-full lg:w-10/12 flex justify-center py-8">
+      <div className="max-w-[1440px] w-full lg:w-10/12 flex justify-center py-8 px-[40px] cmd:px-0">
         <div>
-          <span className="gradient-text font-black text-[45px] leading-[45px]  block cmd:inline text-center">
+          <span className="gradient-text font-black text-[35px] cmd:text-[45px] leading-[45px]  block cmd:inline text-center">
             The power of Data Monetization
           </span>
 

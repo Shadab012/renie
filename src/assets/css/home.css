@@ -113,6 +113,7 @@
   position: relative;
   height: 858px;
   background-image: url("../images/buttomGradient-bg.png");
+  background-size: cover;
   /* border: 1px solid black; */
   overflow: hidden;
   /* Ensures that the pseudo-element is contained within the section */
@@ -228,6 +229,8 @@
 .renieBinSection {
   height: 899px;
   background-image: url("../images/topGradient-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   /* border: 1px solid black; */
 }
 
@@ -262,6 +265,7 @@
 .iconTitle {
   font-size: 22px;
   line-height: 35px;
+  text-align: center;
 }
 
 .iconItem {
@@ -396,6 +400,7 @@
   background-image: url("../images/standard-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all 0.3s ease;
 }
 
 .standardCard:hover {
@@ -412,6 +417,7 @@
   background-image: url("../images/custom-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all 0.3s ease;
   /* border-radius: 20px; */
 }
 
@@ -587,7 +593,7 @@
   /* serviceCard  */
   .serviceCardsSection {
     position: relative;
-    height: 750px !important;
+    /* height: 750px !important; */
     overflow: hidden;
     /* Ensures that the pseudo-element is contained within the section */
   }
@@ -660,7 +666,7 @@
   /* End */
   /* adsMatterSection */
   .adsMatterSection {
-    height: 1250px !important;
+    /* height: 1250px !important; */
     /* background-image: url('../images/reward-bg.png'); */
   }
 

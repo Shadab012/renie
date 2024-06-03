@@ -30,14 +30,14 @@ function ReniebinSection() {
 
   return (
     <>
-      <div className="renieBinSection h-full cmd:h-[899px] z-[-1] relative">
-        <div className="renieMain contentSection h-full  w-10/12  mx-auto">
+      <div className="renieBinSection h-full cmd:py-[100px] z-[-1] relative">
+        <div className="renieMain contentSection h-full  cmd:w-10/12  mx-auto">
           <div className="renieTitleSection mb-5 text-center ">
-            <span className="renieTitleText font-bold gradient-text">
+            <span className="renieTitleText font-bold gradient-text text-[35px] cmd:text-[45px]">
               Renie Bin
             </span>{" "}
             <br />
-            <span className="renieSubTitle font-semibold ">
+            <span className="renieSubTitle font-semibold text-[25px] cmd:text-[35px]">
               The ultimate data extraction machine
             </span>
           </div>
@@ -117,7 +117,7 @@ function ReniebinSection() {
           </div>
         </div>
       </div>
-      <div className="md:hidden overflow-hidden h-[165px] w-full mt-10">
+      <div className="md:hidden overflow-hidden h-[250px] w-full mt-10 px-4">
         <Slider {...settings}>
           <div className="iconItem flex flex-col items-center justify-center w-full">
             <img className="iconImg" src={binImg1} alt="icon1" />
