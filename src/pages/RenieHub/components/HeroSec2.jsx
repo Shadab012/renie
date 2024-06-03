@@ -24,14 +24,10 @@ const HeroSec2 = () => {
           alt="chart Hub image"
         />
         <button
-          className="relative w-[200px] "
-          onClick={() => setX((prevX) => (prevX > 0 ? prevX - 50 : 100))}
+          className="relative w-full flex justify-center mt-5 "
+          onClick={() => setX((prevX) => (prevX > 0 ? 0 : 100))}
         >
-          <img
-            className="absolute  cmd:hidden w-[15%] top-[-15%] right-[65px]"
-            src={swipearrow}
-            alt="bin"
-          />
+          <img className="" src={swipearrow} alt="bin" />
         </button>
       </div>
     </div>
