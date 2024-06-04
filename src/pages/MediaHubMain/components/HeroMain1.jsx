@@ -3,7 +3,7 @@ import trash from "../../../assets/images/trash.svg";
 import tdra from "../../../assets/images/tdra.svg";
 import gcce from "../../../assets/images/gcce.svg";
 
-const HeroMain1 = () => {
+const HeroMain1 = ({ isOpen, handleClick }) => {
   const cards = [
     {
       id: 1,
@@ -50,6 +50,11 @@ const HeroMain1 = () => {
       date: "20-May-2024",
     },
   ];
+
+  const handleState = () => {
+    handleClick(!isOpen);
+  };
+
   return (
     <div className="reniehub-trustedby-main pt-[30px] cmd:pt-[60px] pb-[10px]">
       <div className="w-11/12 md:w-10/12 max-w-[1440px] lg:px-8 my-10 md:flex flex-col  mx-auto ">
@@ -59,7 +64,10 @@ const HeroMain1 = () => {
         <div className="cmd:flex flex-wrap">
           {cards &&
             cards.map((items) => (
-              <div className="w-[98%] h-[450px] rounded-[10px] shadow-md md:w-[31.333%] flex flex-col justify-between cursor-pointer mx-auto my-4 py-4 p-2">
+              <div
+                onClick={handleState}
+                className="w-[98%] h-[450px] rounded-[10px] shadow-md md:w-[31.333%] flex flex-col justify-between cursor-pointer mx-auto my-4 py-4 p-2"
+              >
                 <header className="w-[99%] h-[280px]  overflow-hidden rounded-md ">
                   <img
                     src={items.imag}
