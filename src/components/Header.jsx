@@ -34,7 +34,7 @@ const Header = () => {
               Renie App
             </a>
             <a
-              href="#"
+              href="renieads"
               className="text-[13px] lg:text-[15px] cmxl:text-[18px] cxl:text-xl text-[#000000] whitespace-pre "
             >
               Ads that matter
