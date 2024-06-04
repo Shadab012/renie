@@ -1,4 +1,5 @@
 import React from "react";
+import Video from "../../../components/Video";
 
 const HeroApp2 = () => {
   return (
@@ -26,9 +27,10 @@ const HeroApp2 = () => {
           Connect & Drop
         </p>
 
-        <div className="h-[618px] text-[22px] md:text-[48px] md:leading-[27px] md:font-[400] flex justify-center items-center text-white bg-gray-500">
+        {/* <div className="h-[618px] text-[22px] md:text-[48px] md:leading-[27px] md:font-[400] flex justify-center items-center text-white bg-gray-500">
           <span>watch video</span>
-        </div>
+        </div> */}
+        <Video />
       </div>
     </div>
   );

@@ -11,6 +11,7 @@ import FullVid from "./components/FullVideo";
 import Scaner from "./components/ScanerBin";
 import DataMonetization from "./components/DataMonetization";
 import HubBin from "./components/HubBin";
+import Video from "../../components/Video";
 
 function Reniebin() {
   return (
@@ -22,7 +23,7 @@ function Reniebin() {
       <HeadlineBin />
       <FeatBin />
       <StepBin />
-      <FullVid />
+      <Video />
       <Scaner />
       <DataMonetization />
       <HubBin />

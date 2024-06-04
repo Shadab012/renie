@@ -12,6 +12,7 @@ import HeroAds10 from "./components/HeroAds10";
 
 import TrustedBy from "../../components/TrustedBy";
 import HeroAds11 from "./components/HeroAds11";
+import Video from "../../components/Video";
 
 const RenieAds = () => {
   return (
@@ -24,7 +25,7 @@ const RenieAds = () => {
       <HeroAds6 />
       <HeroAds7 />
       <HeroAds8 />
-      <HeroAds9 />
+      <Video />
       <HeroAds10 />
       <div className="reniehub-trustedby-main pt-[100px]">
         <TrustedBy />

@@ -8,8 +8,8 @@ const MediaHubMain = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <HeroFirst />
-      <HeroMdMain />
+      {isOpen ? "" : <HeroFirst />}
+      <HeroMdMain isOpen={isOpen} />
       {!isOpen ? (
         <HeroMain1 isOpen={isOpen} handleClick={(item) => setIsOpen(item)} />
       ) : (

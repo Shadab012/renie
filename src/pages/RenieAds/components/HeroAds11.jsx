@@ -23,7 +23,7 @@ const card3 = [
 const HeroAds11 = () => {
   return (
     <div className="flex flex-col items-center renie-app-transparency pb-[150px]">
-      <div className="max-w-[1440px] w-11/12 md:w-10/12 mt-[60px] cmd:mt-[80px]">
+      <div className="max-w-[1440px] w-11/12 md:w-10/12 mt-[60px] cmd:mt-[80px] cmd:pb-[50px]">
         <p className="gradient-text text-[35px] font-black cmd:text-[45px]">
           Start advertising
         </p>
@@ -50,19 +50,21 @@ const HeroAds11 = () => {
       </div> */}
         {/* <div className='subscribCardsSection md:8/12 flex md:flex-row justify-end flex-col md:items-end md:mt-0 mt-10 '> */}
 
-        <div className="  flex cmd:h-[450px] cmd:flex-row justify-end flex-col cmd:items-end cmd:mt-0 mt-10 gap-[40px] cmd:gap-0">
+        <div className="  flex  cmd:flex-row justify-end flex-col cmd:items-end cmd:mt-0 mt-10 gap-[40px] cmd:gap-0">
           {/* <div className='standardCard  flex flex-col justify-center items-start px-10 md:mb-0 mb-5'> */}
-          <div className="standardCard !w-full h-[400px] hover:h-[430px] relative  flex flex-col justify-center items-start px-10 mt-10 md:mt-0">
-            <span className="cardTitle gradient-text font-semibold">
-              Basic Boost
-            </span>
-            <p className="cardPrice">
-              {" "}
-              <span className="price gradient-text font-semibold">
-                5,500 AED / mo
+          <div className="standardCard !w-full relative  flex flex-col justify-around items-start px-10 mt-10 md:mt-0 pt-5">
+            <div>
+              <span className="cardTitle gradient-text font-semibold">
+                Basic Boost
               </span>
-            </p>
-            <div className="flex flex-col gap-4">
+              <p className="cardPrice">
+                {" "}
+                <span className="price gradient-text font-semibold">
+                  5,500 AED / mo
+                </span>
+              </p>
+            </div>
+            <div className="flex flex-col gap-5 h-[210px] justify-center">
               {card1.map((item) => {
                 return (
                   <div className="flex gap-2">
@@ -82,18 +84,19 @@ const HeroAds11 = () => {
               </Link>
             </div>
           </div>
-          <div className="Ads-card-2   ronded-[20px] cmd:rounded-0  !w-full h-[400px] hover:h-[430px] relative  flex flex-col justify-center items-start px-10 mt-10 md:mt-0">
-            <span className="cardTitle gradient-text font-semibold">
-              Renie Bin Standard
-            </span>
-            <p className="cardPrice">
-              {" "}
-              <span className="price gradient-text font-semibold">
-                730 AED / mo
+          <div className="Ads-card-2   ronded-[20px] cmd:rounded-0  !w-full   relative  flex flex-col justify-around items-start px-10 mt-10 md:mt-0 pt-5">
+            <div className="flex flex-col gap-3">
+              <span className="cardTitle gradient-text font-semibold">
+                Renie Bin Standard
               </span>
-            </p>
-
-            <div className="flex flex-col gap-4">
+              <p className="cardPrice">
+                {" "}
+                <span className="price gradient-text font-semibold">
+                  730 AED / mo
+                </span>
+              </p>
+            </div>
+            <div className="flex flex-col gap-5 h-[210px] justify-center">
               {card2.map((item) => {
                 return (
                   <div className="flex gap-2">
@@ -113,21 +116,22 @@ const HeroAds11 = () => {
             </div>
           </div>
 
-          <div className="Ads-card-3  !w-full h-[465px] cmd:h-[400px] hover:h-[430px] relative  flex flex-col justify-center items-start px-10 mt-10 md:mt-0">
+          <div className="Ads-card-3  !w-full  relative  flex flex-col justify-around items-start px-10 mt-10 md:mt-0 pt-5 ">
             <div className="mostPopularLabel font-semibold text-white rounded-md flex justify-center items-center ">
               MOST POPULAR
             </div>
-            <span className="cardTitle gradient-text font-semibold">
-              Renie Bin Standard
-            </span>
-            <p className="cardPrice">
-              {" "}
-              <span className="price gradient-text font-semibold">
-                730 AED/ mo
+            <div>
+              <span className="cardTitle gradient-text font-semibold">
+                Renie Bin Standard
               </span>
-            </p>
-
-            <div className="flex flex-col gap-4">
+              <p className="cardPrice">
+                {" "}
+                <span className="price gradient-text font-semibold">
+                  730 AED/ mo
+                </span>
+              </p>
+            </div>
+            <div className="flex flex-col gap-4 h-[210]">
               {card3.map((item) => {
                 return (
                   <div className="flex gap-2">

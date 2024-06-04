@@ -1,6 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
-const HeroAds9 = () => {
+const Video = () => {
   return (
     <div className="h-[618px]">
       <ReactPlayer
@@ -12,4 +12,4 @@ const HeroAds9 = () => {
   );
 };
 
-export default HeroAds9;
+export default Video;
