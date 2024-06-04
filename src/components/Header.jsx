@@ -40,7 +40,7 @@ const Header = () => {
               Ads that matter
             </a>
             <a
-              href="#"
+              href="reniemedia"
               className="text-[13px] lg:text-[15px] cmxl:text-[18px] cxl:text-xl text-[#000000] whitespace-pre "
             >
               Media Hub

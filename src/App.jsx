@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import RenieHub from "./pages/RenieHub/RenieHub";
 import RenieApp from "./pages/RenieApp/RenieApp";
 import RenieAds from "./pages/RenieAds/RenieAds";
+import MediaHubMain from "./pages/MediaHubMain/MediaHubMain";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/reniehub" element={<RenieHub />} />
           <Route path="/renieapp" element={<RenieApp />} />
           <Route path="/renieads" element={<RenieAds />} />
+          <Route path="/reniemedia" element={<MediaHubMain />} />
         </Routes>
         <Footer />
       </Router>
