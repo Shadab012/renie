@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import cardImg from "../../../assets/images//bin-1.webp";
 import StandardImg from "../../../assets/images/standardFeature.png";
+import Connect from "../../../components/Connect";
 function SubscribCards() {
   return (
     <div className=" w-10/12 contentSection flex  items-center cmd:items-end flex-col cmd:flex-row  justify-center md:justify-around  mx-auto ">
@@ -35,13 +36,14 @@ function SubscribCards() {
           </p>
           <span className="cardTime font-semibold">One time free</span>
           <img className="mt-10" src={StandardImg} alt="" />
-          <div className="headerButton w-max flex items-center justify-center mt-10  ">
-            <Link
+          <div className="mt-10  ">
+            {/* <Link
               to="#"
               className="text-white  font-medium rounded-lg text-sm  "
             >
               Connect with an expert
-            </Link>
+            </Link> */}
+            <Connect />
           </div>
         </div>
 
@@ -59,13 +61,14 @@ function SubscribCards() {
           </p>
           <span className="cardTime font-semibold">One time free</span>
           <img className="mt-10" src={StandardImg} alt="" />
-          <div className="headerButton w-max flex items-center justify-center mt-10  ">
-            <Link
+          <div className=" mt-10  ">
+            {/* <Link
               to="#"
               className="text-white  font-medium rounded-lg text-sm  "
             >
               Connect with an expert
-            </Link>
+            </Link>  */}
+            <Connect />
           </div>
         </div>
       </div>

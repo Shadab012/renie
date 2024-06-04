@@ -1,5 +1,6 @@
 import React from "react";
 import adhand from "../../../assets/images/ad-hand.webp";
+import Connect from "../../../components/Connect";
 
 const HeroAds7 = () => {
   return (
@@ -26,9 +27,12 @@ const HeroAds7 = () => {
               Ads that matters supports picture and full screen video ads that
               are designed for awareness or consideration level{" "}
             </span>
-            <button className="heroButton mt-4 hidden cmd:block">
+            {/* <button className="heroButton mt-4 hidden cmd:block">
               Connect with an expert
-            </button>
+            </button> */}
+            <div className="mt-4 hidden cmd:block">
+              <Connect />
+            </div>
             <span className="text-[#fff] cmd:hidden block text-center mt-[40px] text-[15px]">
               Connect with an expert &gt;
             </span>

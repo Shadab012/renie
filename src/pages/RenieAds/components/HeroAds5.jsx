@@ -2,6 +2,7 @@ import React from "react";
 import adheight from "../../../assets/images/ad-height.webp";
 import reniebg from "../../../assets/images/renie-bg.png";
 import binleafImg from "../../../assets/images/bg-leaf.webp";
+import Connect from "../../../components/Connect";
 const HeroAds5 = () => {
   return (
     <div>
@@ -40,10 +41,11 @@ const HeroAds5 = () => {
                 100% of the screen is covered by your advertisement. Our
                 interface button has a subtle presence in your brands color.
               </span>
-              <div className="hidden cmd:block">
-                <button className="heroButton mt-4 ">
+              <div className="hidden cmd:block mt-4">
+                {/* <button className="heroButton  ">
                   Connect with an expert
-                </button>
+                </button> */}
+                <Connect />
               </div>
             </div>
             {/* <div className="">

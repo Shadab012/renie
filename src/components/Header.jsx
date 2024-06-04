@@ -2,6 +2,7 @@ import React, { useState } from "react";
 // import logo from '../assets/images/logo.png';
 import logoSVG from "../assets/images/logoSVG.svg";
 import { Link } from "react-router-dom";
+import Connect from "./Connect";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -48,9 +49,10 @@ const Header = () => {
             </a>
           </div>
           <div className="hidden cmd:block">
-            <button className=" headerButton text-white text-[13px] lg:text-[15px] cmxl:text-[18px] cxl:text-xl whitespace-pre ">
+            {/* <button className=" headerButton text-white text-[13px] lg:text-[15px] cmxl:text-[18px] cxl:text-xl whitespace-pre ">
               Connect with an expert
-            </button>
+            </button> */}
+            <Connect />
           </div>
           <div className="-mr-2 flex cmd:hidden">
             <button
@@ -124,9 +126,7 @@ const Header = () => {
             >
               Media Hub
             </a>
-            <button className="headerButton text-white">
-              Connect with an expert
-            </button>
+            <Connect />
           </div>
         </div>
       )}

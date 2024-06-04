@@ -1,5 +1,6 @@
 import React from "react";
 import marketingmockup from "../../../assets/images/marketing-mockup.webp";
+import Connect from "../../../components/Connect";
 
 const HeroAds10 = () => {
   return (
@@ -18,9 +19,12 @@ const HeroAds10 = () => {
             Analyze campaign performance through your own advertising dashboard
           </p>
 
-          <button className="heroButton hidden cmd:block mt-4 text-[#fff]">
+          {/* <button className="heroButton hidden cmd:block mt-4 text-[#fff]">
             Connect with an expert
-          </button>
+          </button> */}
+          <div className="hidden cmd:block mt-4">
+            <Connect />
+          </div>
         </div>
       </div>
     </div>

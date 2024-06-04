@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import check from "../../../assets/images/check.svg";
 
 import StandardImg from "../../../assets/images/standardFeature.png";
+import Connect from "../../../components/Connect";
 const card1 = [
   "15 sec video banner displayed during off-peak hours",
   " Share ad rotation with other basic Boost ads",
@@ -75,13 +76,14 @@ const HeroAds11 = () => {
               })}
             </div>
 
-            <div className="headerButton w-max flex items-center justify-center mt-10  ">
-              <Link
+            <div className=" w-max flex items-center justify-center mt-10  ">
+              {/* <Link
                 to="#"
                 className="text-white  font-medium rounded-lg text-sm  "
               >
                 Connect with an expert
-              </Link>
+              </Link> */}
+              <Connect />
             </div>
           </div>
           <div className="Ads-card-2   ronded-[20px] cmd:rounded-0  !w-full   relative  flex flex-col justify-around items-start px-10 mt-10 md:mt-0 pt-5">
@@ -106,13 +108,14 @@ const HeroAds11 = () => {
                 );
               })}
             </div>
-            <div className="headerButton w-max flex items-center justify-center mt-10  ">
-              <Link
+            <div className=" w-max flex items-center justify-center mt-10  ">
+              {/* <Link
                 to="#"
                 className="text-white  font-medium rounded-lg text-sm  "
               >
                 Connect with an expert
-              </Link>
+              </Link> */}
+              <Connect />
             </div>
           </div>
 
@@ -141,13 +144,14 @@ const HeroAds11 = () => {
                 );
               })}
             </div>
-            <div className="headerButton w-max flex items-center justify-center mt-10  ">
-              <Link
+            <div className=" w-max flex items-center justify-center mt-10  ">
+              {/* <Link
                 to="#"
                 className="text-white  font-medium rounded-lg text-sm  "
               >
                 Connect with an expert
-              </Link>
+              </Link> */}
+              <Connect />
             </div>
           </div>
         </div>

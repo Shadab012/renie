@@ -1,5 +1,6 @@
 import React from "react";
 import filter from "../../../assets/images/filter.webp";
+import Connect from "../../../components/Connect";
 
 const HeroAds3 = () => {
   return (
@@ -21,9 +22,12 @@ const HeroAds3 = () => {
             consumers from all walks of life.
           </p>
 
-          <button className="heroButton text-[#fff] w-fit hidden cmd:block">
+          {/* <button className="heroButton text-[#fff] w-fit hidden cmd:block">
             Connect with an expert
-          </button>
+          </button> */}
+          <div className="hidden cmd:block">
+            <Connect />
+          </div>
         </div>
       </div>
     </div>

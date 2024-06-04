@@ -1,5 +1,6 @@
 import React from "react";
 import adedit from "../../../assets/images/ad-edit.webp";
+import Connect from "../../../components/Connect";
 
 const HeroAds4 = () => {
   return (
@@ -18,9 +19,12 @@ const HeroAds4 = () => {
             screen.
           </p>
 
-          <button className="heroButton text-[#fff] hidden cmd:block">
+          {/* <button className="heroButton text-[#fff] hidden cmd:block">
             Connect with an expert
-          </button>
+          </button> */}
+          <div className=" hidden cmd:block">
+            <Connect />
+          </div>
         </div>
         <div className="w-[80vw] cmd:w-[48%]">
           <img className=" " src={adedit} alt="image hub" />

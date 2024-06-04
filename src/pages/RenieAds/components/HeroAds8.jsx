@@ -1,6 +1,7 @@
 import React from "react";
 import locations from "../../../assets/images/locations.webp";
 import location from "../../../assets/images/location.svg";
+import Connect from "../../../components/Connect";
 
 const arr = [
   {
@@ -49,9 +50,12 @@ const HeroAds8 = () => {
               );
             })}
           </div>
-          <button className="heroButton hidden cmd:block mt-4 text-[#fff]">
+          {/* <button className="heroButton hidden cmd:block mt-4 text-[#fff]">
             Connect with an expert
-          </button>
+          </button> */}
+          <div className="hidden cmd:block mt-4">
+            <Connect />
+          </div>
         </div>
 
         <div className="w-[80vw] cmd:w-[56%] flex justify-center">
