@@ -400,6 +400,7 @@
   background-image: url("../images/standard-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom-left-radius: 20px;
   transition: all 0.3s ease;
 }
 
@@ -414,8 +415,9 @@
 .Ads-card-3 {
   width: 448px;
   height: 510px;
-  background-image: url("../images/bg-card-3.png");
+  background-image: url("../images/bg-card-3-n.png");
   background-repeat: no-repeat;
+  border-radius: 20px;
   background-size: cover;
   transition: all 0.3s ease;
 }
@@ -429,7 +431,7 @@
 .Ads-card-2 {
   width: 448px;
   height: 510px;
-  background-image: url("../images/bg-card-2.png");
+  background-image: url("../images/bg-card-2-n.png");
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.3s ease;
@@ -452,7 +454,9 @@
   transition: all 0.3s ease;
   /* border-radius: 20px; */
 }
-
+.customCard:hover .mostPopularLabel {
+  top: -7.5%;
+}
 .customCard:hover {
   width: 448px;
   height: 582px;

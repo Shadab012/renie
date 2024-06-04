@@ -21,6 +21,7 @@ const Header = () => {
             >
               Renie Bin
             </Link>
+
             <Link
               to="/reniehub"
               className="text-[13px] lg:text-[15px] cmxl:text-[18px] cxl:text-xl text-[#000000] whitespace-pre "
@@ -87,31 +88,38 @@ const Header = () => {
         <div className="cmd:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
-              href="#"
+              href="reniebin"
               className="block text-black px-3 py-2  text-base font-normal"
             >
               Renie Bin
             </a>
             <a
-              href="#"
+              href="
+              reniehub
+"
               className="block text-black px-3 py-2  text-base font-normal"
             >
               Renie Hub
             </a>
             <a
-              href="#"
+              href=" 
+              renieapp
+             "
               className="block text-black px-3 py-2  text-base font-normal"
             >
               Renie App
             </a>
             <a
-              href="#"
+              href="
+              renieads
+              "
               className="block text-black px-3 py-2  text-base font-normal"
             >
-              ds that matter
+              ads that matter
             </a>
             <a
-              href="#"
+              href="
+              reniemedia"
               className="block text-black px-3 py-2  text-base font-normal"
             >
               Media Hub

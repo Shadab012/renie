@@ -1,5 +1,5 @@
 import React from "react";
-import adsMob from "../../../assets/images/adsMob.png";
+import adsMob from "../../../assets/images/adsMob.svg";
 
 const HeroApp6 = () => {
   return (
@@ -29,7 +29,7 @@ const HeroApp6 = () => {
         </div>
 
         <img
-          className="w-[372px] h-[762.8px]  translate-y-[-6rem] md:translate-y-0 cmd:translate-x-[-3rem]"
+          className="cmd:w-[372px] cmd:h-[762.8px] ads-mob  translate-y-[-6rem] md:translate-y-0 cmd:translate-x-[-3rem]"
           src={adsMob}
           alt="AdMap"
         />

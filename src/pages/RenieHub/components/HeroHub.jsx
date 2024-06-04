@@ -13,6 +13,7 @@ const HeroBinHub = () => {
             src={circle}
             alt="cicle"
           />
+
           <img className="" src={renieHub} alt="renie Hub image" />
         </div>
         <div className="w-full cmd:w-[50%] relative">
@@ -31,7 +32,7 @@ const HeroBinHub = () => {
             alt="renie Hub image"
           />
           <img
-            className=" cmd:w-[180px]  xl:w-[170px] cxl:w-[160px] hidden lg:block absolute bottom-[-80%] right-0 "
+            className=" w-[80px] renie-hub-mbl-circle cmd:hidden absolute top-[-110%] right-[-20px] z-[-1]"
             src={circleTwo}
             alt="renie Hub image"
           />

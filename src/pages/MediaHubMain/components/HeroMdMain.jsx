@@ -6,7 +6,7 @@ const HeroMdMain = () => {
     <div className="cmd:binhub-hero-bg">
       <div className=" cmd:w-10/12 max-w-[1440px] lg:px-8 mx-auto">
         <din className="mx-auto md:flex flex-col pt-[3rem]  pb-[4rem]">
-          <span className="text-[25px] md:text-[36px] leading-[45px] font-[600] md:mb-4 gradient-text w-fit ">
+          <span className="text-[25px] md:text-[36px] leading-[45px] font-[600] md:mb-4 gradient-text w-fit px-2.5 cmd:px-0">
             Latest Blog
           </span>
           <div className="md:flex">

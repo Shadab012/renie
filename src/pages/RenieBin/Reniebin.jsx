@@ -14,7 +14,7 @@ import HubBin from "./components/HubBin";
 
 function Reniebin() {
   return (
-    <div>
+    <div className="mt-2.5">
       <div className="binHeroSection flex">
         <HeroBin />
       </div>

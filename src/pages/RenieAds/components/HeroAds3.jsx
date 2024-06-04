@@ -5,7 +5,7 @@ const HeroAds3 = () => {
   return (
     <div className="flex justify-center">
       <div className="max-w-[1440px] w-11/12 md:w-10/12  lg:px-8 min-h-[70vh] flex flex-col cmd:flex-row justify-center items-center py-[80px] gap-8 cmd:gap-4">
-        <div className="w-[80vw] cmd:w-[48%]  flex justify-center">
+        <div className="w-[40vw] cmd:w-[48%]  flex justify-center">
           <img className="" src={filter} alt="image hub" />
         </div>
 

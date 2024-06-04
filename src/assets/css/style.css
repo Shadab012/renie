@@ -168,7 +168,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.follow-impact {
+  background-image: url("../images/followimpact-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .reniehub-trustedby-main {
   background-image: url("../images/topGradient-bg.png");
   background-repeat: no-repeat;
@@ -277,27 +281,22 @@
     justify-content: center;
     align-items: center;
   }
-  /* .trust {
-    overflow-x: scroll !important;
+}
+
+@media screen and (max-width: 400px) {
+  .ads-mob {
+    width: 90%;
+    transform: translateY(-2rem) !important;
   }
-  .trustItem1 {
-    width: 179.37px;
-    height: 51.45px;
+  .renie-hub-mbl-circle {
+    top: -90% !important;
+    right: -10px !important;
   }
-  .trustItem2 {
-    width: 180.8px !important;
-    height: 34.3px;
+}
+
+@media screen and (max-width: 370px) {
+  .renie-hub-mbl-circle {
+    top: -70% !important;
+    right: -10px !important;
   }
-  .trustItem3 {
-    width: 40% !important;
-    height: 48px;
-  }
-  .trustItem4 {
-    width: 40% !important;
-    height: 135px;
-  }
-  .trustItem5 {
-    width: 40% !important;
-    height: 57px;
-  } */
 }

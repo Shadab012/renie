@@ -22,7 +22,7 @@ function Home() {
     }
   };
   return (
-    <div>
+    <div className="mt-2.5">
       <HeroSection scrollToServiceCard={scrollToServiceCard} />
       <div className="trustedBySection my-8 cmd:my-12">
         <TrustedBy />

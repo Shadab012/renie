@@ -46,7 +46,7 @@ function SubscribCards() {
         </div>
 
         <div className="customCard relative  flex flex-col justify-center items-start px-10 mt-10 md:mt-0">
-          <div className="mostPopularLabel font-semibold text-white rounded-md flex justify-center items-center ">
+          <div className="mostPopularLabel font-semibold text-white border-b-0 rounded-md flex justify-center items-center ">
             MOST POPULAR
           </div>
           <span className="cardTitle gradient-text font-semibold">

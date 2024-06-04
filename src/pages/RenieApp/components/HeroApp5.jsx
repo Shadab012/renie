@@ -3,7 +3,7 @@ import impact from "../../../assets/images/impact.webp";
 
 const HeroApp5 = () => {
   return (
-    <div className="reniehub-track-earning cmd:mt-[-80px]">
+    <div className="follow-impact cmd:mt-[-80px]">
       <div className="max-w-[1440px] flex justify-center min-h-[70vh] mx-auto">
         <div className="md:flex justify-center items-center gap-8 ">
           <div>
